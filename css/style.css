@@ -1,0 +1,431 @@
+D$
+ @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/*#0fdaec alda market color*/
+
+footer{
+	position:fixed;
+}
+
+@media (max-height:800px){
+	footer { position:static; }
+}
+
+/*638583   #48515c     */
+.footer-distributed{
+	background-color: #D3E1E4;
+	box-sizing: border-box;
+	width: 101.2%;
+	text-align: left;
+	font: bold 17px sans-serif;
+	padding: 8px 8px 8px 8px;
+	margin-top: 80px;
+	margin-left:-8px;
+	
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align:middle;
+}
+.footer-distributed .footer-left{
+	width: 30%;
+}
+/* Alda Text*/
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 45px 'Cookie', cursive;
+	margin: 5;
+}
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+/*Market*/
+.footer-distributed h3 span{
+	color:#0fdaec;
+}
+
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 2;
+	text-decoration:none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+.footer-distributed .footer-center i{
+	background-color:  #ffffff;
+	color: #11cadb;
+	font-size: 27px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 13px 0px;
+	vertical-align: middle;
+	
+}
+/* mail, phone, map icons*/
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:17px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color: #4FB9A9;
+	text-decoration: none;;
+}
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:white;
+	font-size: 14px;
+	font-weight: normal;
+	margin:0;
+}
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+/* Social Media Icons*/
+.fa-facebook {
+    padding:15px 20px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #0fdaec;
+    color: #fff;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}  
+
+.fa-instagram {
+    padding:15px 18px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #0fdaec;
+    color: #fff;
+    
+}
+.fa-instagram:hover {
+  background-color: #E48240;
+}
+.footer-links:hover {
+color:#0fdaec;
+}
+/* Code for responsive */
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 30px;
+		text-align: center;
+		
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+/* Page lists*/
+.foot a {
+  
+  display:list-item;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17; 
+  padding: 1px;;
+  list-style: none;
+}
+
+.foot a:hover {
+  color: #11cadb;
+  
+}
+.footer-right {
+	padding: 0 25px;
+}
+.tabela{
+	text-decoration:none;
+	color:blue;
+	margin-top:60px;
+    width:100%;
+    table-layout:fixed;
+	
+}
+.x{
+	margin-top:60px;
+	margin-right:60px;
+}
+.logo{
+
+	width:185px;
+	height:150px;
+	padding-left:60px;
+	padding-top:20px;
+	
+}
+
+.video {
+	margin-top:50px;
+	margin-left: 540px;
+	margin-right: 200px;
+}
+
+.paragrafi{
+	margin-left:400px;
+	margin-right:300px;
+}
+.hrnew{
+	
+	width:800px;
+	border: 1px solid #3CC4D5;
+}
+/* moving photo left right*/
+.carousel-inner {
+	height:600px;
+	left:220px;
+	
+}
+
+/* color of slider */
+.carousel{
+  color: #7FFFF2;
+  background-color: #7FFFF2 !important;
+}
+
+.carousel .item{
+  color:#7FFFF2;
+  
+}
+/* photo position */
+.carousel {
+  width:1050px;
+  height:500px;
+}
+.topnav {
+  background-color: rgb(117, 129, 128);
+  overflow: hidden;
+  margin-top:-187px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top:17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#2ab1e2;
+  color: lightgray;
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(79, 185, 169);
+  color: white;
+  text-decoration: none;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+} 
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 20%;
+}
+/*search form button*/
+.search-form {
+  --searchButtonWidth: 75px;
+  
+  max-width: 320px;
+  margin: 14 auto;
+  margin-right: 68;
+  overflow: hidden;
+  position: relative;
+  float: right;
+}
+
+.search-input {
+  border: 0;
+  margin: 0;
+  padding: 0.5rem calc(var(--searchButtonWidth) + 0.5rem) 0.5rem 0.5rem;
+  border-radius: 8px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  -webkit-appearance: none;
+  font-size: 13px;
+}
+.search-input:focus {
+  outline: 0;
+  background: white;
+}
+.search-input:not(:placeholder-shown) ~ .search-button {
+  transform: translateX(calc(-1 * var(--searchButtonWidth)));
+}
+
+.search-button {
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+  position: absolute; 
+  top: 0;
+  left: 100%;
+  width: var(--searchButtonWidth);
+  transition: 0.2s;
+  background: rgb(79, 185, 169);
+  color: white;
+  font-size: 13px;
+  height: 100%;
+}
+.search-button:focus {
+  outline: 0;
+  background: #222;
+}
+.harta{
+	
+	float: right;
+	margin-left: 15px;
+
+}
+.harta2{
+	margin-left: 410px;
+	margin-right: 540px;
+
+}
+.adresat{
+	text-align: center;
+	font-family:'Candara';
+	font-style: italic;
+	display: inline;
+}
+
+.column {
+	float: left;
+	width: 50%;
+  }
+  .tabela{
+	text-decoration:none;
+	color:white;
+	margin-top:15px;
+    width:100%;
+    table-layout:fixed;
+}
+.x{
+	margin-top:60px;
+	margin-right:60px;
+}
+.logo{
+
+	width:185px;
+	height:150px;
+	padding-left:60px;
+	padding-top:20px;
+	
+}
+.video {
+	
+	margin-left: 450px;
+	margin-right: 250px;
+}
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	  margin-top: 10px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 50px;
+  }
+
+.kontakt {
+	margin-top: 50px;
+	padding: 50px;
+	font-family:"Myriad Pro Regular";
+	font-style: oblique;
+	font-size: 28px;
+	margin-left: 500px;
+	margin-right: 100px;
+}
+ 
+
