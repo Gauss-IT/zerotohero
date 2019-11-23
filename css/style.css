@@ -1,7 +1,7 @@
 D$
  @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-/*#0fdaec alda market color*/
+
 
 footer{
 	position:fixed;
@@ -13,14 +13,15 @@ footer{
 
 /*638583   #48515c     */
 .footer-distributed{
-	background-color: #D3E1E4;
+	background-color:#5c8a8a;
 	box-sizing: border-box;
-	width: 101.2%;
+	width: 100.6%;
 	text-align: left;
 	font: bold 17px sans-serif;
 	padding: 8px 8px 8px 8px;
 	margin-top: 80px;
 	margin-left:-8px;
+	box-shadow: 0 0 2px 0 black;
 	
 }
 
@@ -36,23 +37,27 @@ footer{
 /* Alda Text*/
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 45px 'Cookie', cursive;
+	font-family:Arial, Helvetica, sans-serif;
 	margin: 5;
+	font-size:30px;
+	margin-left:14px;
 }
 
 .footer-distributed .footer-left img{
 	width: 30%;
+	margin-left:30px;
 }
 /*Market*/
 .footer-distributed h3 span{
-	color:#0fdaec;
+	color:#2ab1e2;
 }
 
 
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
-	margin: 20px 0 12px;
+	margin: 20px 0 12px; 	
+	
 }
 
 .footer-distributed .footer-links a{
@@ -60,6 +65,7 @@ footer{
 	line-height: 2;
 	text-decoration:none;
 	color:  inherit;
+	
 }
 
 .footer-distributed .footer-center{
@@ -67,7 +73,7 @@ footer{
 }
 .footer-distributed .footer-center i{
 	background-color:  #ffffff;
-	color: #11cadb;
+	color: #2ab1e2;
 	font-size: 27px;
 	width: 45px;
 	height: 45px;
@@ -77,17 +83,30 @@ footer{
 	margin: 13px 0px;
 	vertical-align: middle;
 	
+	
 }
 /* mail, phone, map icons*/
 .footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
+	
+}
+.footer-center i.fa-envelope:hover{
+	background-color:rgb(90, 88, 88);
+}
+.footer-center i.fa-phone:hover {
+	background-color:rgb(90, 88, 88);
+}
+.footer-center i.fa-map-marker:hover {
+	background-color:rgb(90, 88, 88);
+
 }
 
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 .footer-distributed .footer-center p span{
@@ -98,7 +117,7 @@ footer{
 }
 
 .footer-distributed .footer-center p a{
-	color: #4FB9A9;
+	color: #2ab1e2;;
 	text-decoration: none;;
 }
 .footer-distributed .footer-right{
@@ -123,11 +142,14 @@ footer{
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #0fdaec;
-    color: #fff;
+    background-color: #5c8a8a;
+	color: #fff;
+	border-style:solid ;
+	border-width: 1px;
 }
 .fa-facebook:hover {
-    background-color: #3d5b99;
+	background-color: #3d5b99;
+	
 }  
 
 .fa-instagram {
@@ -137,15 +159,17 @@ footer{
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #0fdaec;
-    color: #fff;
+    background-color: #5c8a8a;
+	color: #fff;
+	border-style:solid ;
+	border-width: 1px;
     
 }
 .fa-instagram:hover {
   background-color: #E48240;
 }
 .footer-links:hover {
-color:#0fdaec;
+color:#2ab1e2;
 }
 /* Code for responsive */
 @media (max-width: 880px) {
@@ -177,7 +201,8 @@ color:#0fdaec;
 }
 
 .foot a:hover {
-  color: #11cadb;
+  color: #2ab1e2;
+  text-decoration: none ;
   
 }
 .footer-right {
@@ -195,20 +220,7 @@ color:#0fdaec;
 	margin-top:60px;
 	margin-right:60px;
 }
-.logo{
 
-	width:185px;
-	height:150px;
-	padding-left:60px;
-	padding-top:20px;
-	
-}
-
-.video {
-	margin-top:50px;
-	margin-left: 540px;
-	margin-right: 200px;
-}
 
 .paragrafi{
 	margin-left:400px;
@@ -221,8 +233,10 @@ color:#0fdaec;
 }
 /* moving photo left right*/
 .carousel-inner {
-	height:600px;
-	left:220px;
+	height:450px;
+	left:0px;
+	top:75px;
+	
 	
 }
 
@@ -230,6 +244,8 @@ color:#0fdaec;
 .carousel{
   color: #7FFFF2;
   background-color: #7FFFF2 !important;
+  
+  
 }
 
 .carousel .item{
@@ -238,106 +254,13 @@ color:#0fdaec;
 }
 /* photo position */
 .carousel {
-  width:1050px;
-  height:500px;
-}
-.topnav {
-  background-color: rgb(117, 129, 128);
-  overflow: hidden;
-  margin-top:-187px;
+  width:1135px;
+  height:600px;
+  margin-top:40px;
+  margin-left:112px;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f5f5f5;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  margin-top:17px;
-  
-}
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color:#2ab1e2;
-  color: lightgray;
-  text-decoration: none;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: rgb(79, 185, 169);
-  color: white;
-  text-decoration: none;
-}
-.topnav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-} 
-input[type=text] {
-  width: 130px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-  width: 20%;
-}
-/*search form button*/
-.search-form {
-  --searchButtonWidth: 75px;
-  
-  max-width: 320px;
-  margin: 14 auto;
-  margin-right: 68;
-  overflow: hidden;
-  position: relative;
-  float: right;
-}
-
-.search-input {
-  border: 0;
-  margin: 0;
-  padding: 0.5rem calc(var(--searchButtonWidth) + 0.5rem) 0.5rem 0.5rem;
-  border-radius: 8px;
-  width: 100%;
-  background: rgb(255, 255, 255);
-  -webkit-appearance: none;
-  font-size: 13px;
-}
-.search-input:focus {
-  outline: 0;
-  background: white;
-}
-.search-input:not(:placeholder-shown) ~ .search-button {
-  transform: translateX(calc(-1 * var(--searchButtonWidth)));
-}
-
-.search-button {
-  border: 0;
-  padding: 0.5rem;
-  border-radius: 8px;
-  position: absolute; 
-  top: 0;
-  left: 100%;
-  width: var(--searchButtonWidth);
-  transition: 0.2s;
-  background: rgb(79, 185, 169);
-  color: white;
-  font-size: 13px;
-  height: 100%;
-}
-.search-button:focus {
-  outline: 0;
-  background: #222;
-}
 .harta{
 	
 	float: right;
@@ -427,5 +350,98 @@ input[type=text], select, textarea {
 	margin-left: 500px;
 	margin-right: 100px;
 }
- 
+header img {
+    height: 80px;
+	margin-left: 40px;
+	opacity:1.2;
+	padding-top:4px;
+	padding-bottom: 8px;
+	padding-right:8px;
+	
+}
+/*#9fadc6;*/
+header {
+    background-color:#5c8a8a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	z-index: 9999;
+}
+header * {
+    display:flex;
+}
+header li {
+    margin: 25px;
+}
+header li a {
+    color:white;
+    text-decoration: none;
+}
+ .header li a:hover {
+  background-color:#2ab1e2;
+  color:white;
+  text-decoration: none;
+  
+}
 
+.al {
+    font-size: 30px;
+	color:white;
+	margin-top:15px;
+}
+.mar {
+    color:#2ab1e2;
+}
+.search-form {
+  --searchButtonWidth: 75px;
+  
+  max-width: 320px;
+  margin:-110 auto;
+  margin-right:-100%;
+  overflow: hidden;
+  position: relative;
+  float: right;
+}	
+.search-input {
+  border: 0;
+  margin: 50;
+  padding: 0.5rem calc(var(--searchButtonWidth) + 0.5rem) 0.5rem 0.5rem;
+  border-radius: 8px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  -webkit-appearance: none;
+  font-size: 13px;
+}
+.search-input:focus {
+  outline: 0;
+  background: white;
+}
+.search-input:not(:placeholder-shown) ~ .search-button {
+  transform: translateX(calc(-1 * var(--searchButtonWidth)));
+}
+
+.search-button {
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 7px;
+  position: absolute; 
+  top:49;
+  left: 100%;
+  width: var(--searchButtonWidth);
+  transition: 0.2s;
+  background:#2ab1e2;
+  color: white;
+  font-size: 13px;
+  height:23%;
+}
+.headi a:hover {
+	color:#2ab1e2;
+	text-decoration: none;
+}
