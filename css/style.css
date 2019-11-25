@@ -11,6 +11,7 @@ footer{
 	footer { position:static; }
 }
 
+
 /*638583   #48515c     */
 .footer-distributed{
 	background-color:#5c8a8a;
@@ -267,46 +268,6 @@ color:#2ab1e2;
 	margin-left: 15px;
 
 }
-.harta2{
-	margin-left: 410px;
-	margin-right: 540px;
-
-}
-.adresat{
-	text-align: center;
-	font-family:'Candara';
-	font-style: italic;
-	display: inline;
-}
-
-.column {
-	float: left;
-	width: 50%;
-  }
-  .tabela{
-	text-decoration:none;
-	color:white;
-	margin-top:15px;
-    width:100%;
-    table-layout:fixed;
-}
-.x{
-	margin-top:60px;
-	margin-right:60px;
-}
-.logo{
-
-	width:185px;
-	height:150px;
-	padding-left:60px;
-	padding-top:20px;
-	
-}
-.video {
-	
-	margin-left: 450px;
-	margin-right: 250px;
-}
 input[type=text], select, textarea {
 	width: 100%; /* Full width */
 	padding: 12px; /* Some padding */ 
@@ -360,7 +321,10 @@ header img {
 	
 }
 /*#9fadc6;*/
+
+
 header {
+
     background-color:#5c8a8a;
     position: fixed;
     top: 0;
@@ -444,4 +408,7 @@ header li a {
 .headi a:hover {
 	color:#2ab1e2;
 	text-decoration: none;
+}
+#mydiv {
+	display: none;
 }
