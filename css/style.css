@@ -242,6 +242,22 @@ color:#2ab1e2;
 	margin-left: 15px;
 
 }
+
+.harta2
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.adresat{
+	text-align: center;
+	font-family:'Candara';
+	font-style: italic;
+	display: inline;
+}
+
 input[type=text], select, textarea {
 	width: 100%; /* Full width */
 	padding: 12px; /* Some padding */ 
