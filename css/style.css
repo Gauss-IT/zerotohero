@@ -234,35 +234,9 @@ color:#2ab1e2;
 	width:800px;
 	border: 1px solid #3CC4D5;
 }
-/* moving photo left right*/
-.carousel-inner {
-	height:450px;
-	left:0px;
-	top:75px;
-	
-	
+.carousel-inner{
+	margin-top:76px;
 }
-
-/* color of slider */
-.carousel{
-  color: #7FFFF2;
-  background-color: #7FFFF2 !important;
-  
-  
-}
-
-.carousel .item{
-  color:#7FFFF2;
-  
-}
-/* photo position */
-.carousel {
-  width:1135px;
-  height:600px;
-  margin-top:40px;
-  margin-left:112px;
-}
-
 
 .harta{
 	
