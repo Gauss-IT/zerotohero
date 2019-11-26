@@ -245,8 +245,14 @@ color:#2ab1e2;
 
 }
 
+.harta2
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-<<<<<<< HEAD
 .adresat{
 	text-align: center;
 	font-family:'Candara';
@@ -256,10 +262,6 @@ color:#2ab1e2;
 }
 
 
-=======
-
-
->>>>>>> f18499045b87013eede5ef407aa031e83df1259a
 header img {
     height: 80px;
 	margin-left: 40px;
