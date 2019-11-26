@@ -256,6 +256,7 @@ color:#2ab1e2;
 	font-family:'Candara';
 	font-style: italic;
 	display: inline;
+        font-size: 20;
 }
 
 input[type=text], select, textarea {
