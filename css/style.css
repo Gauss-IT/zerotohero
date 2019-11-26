@@ -18,7 +18,8 @@ footer{
 	box-sizing: border-box;
 	width: 100.6%;
 	text-align: left;
-	font: bold 17px sans-serif;
+	font-family:Arial, Helvetica, sans-serif, bold;
+
 	padding: 8px 8px 8px 8px;
 	margin-top: 80px;
 	margin-left:-8px;
@@ -38,7 +39,8 @@ footer{
 /* Alda Text*/
 .footer-distributed h3{
 	color:  #ffffff;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif, bold;
+
 	margin: 5;
 	font-size:30px;
 	margin-left:14px;
@@ -259,49 +261,7 @@ color:#2ab1e2;
         font-size: 20;
 }
 
-input[type=text], select, textarea {
-	width: 100%; /* Full width */
-	padding: 12px; /* Some padding */ 
-	border: 1px solid #ccc; /* Gray border */
-	border-radius: 4px; /* Rounded borders */
-	box-sizing: border-box; /* Make sure that padding and width stays in place */
-	margin-top: 6px; /* Add a top margin */
-	margin-bottom: 16px; /* Bottom margin */
-	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-	background-color: #4CAF50;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-	background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-	  margin-top: 10px;
-	border-radius: 5px;
-	background-color: #f2f2f2;
-	padding: 50px;
-  }
 
-.kontakt {
-	margin-top: 50px;
-	padding: 50px;
-	font-family:"Myriad Pro Regular";
-	font-style: oblique;
-	font-size: 28px;
-	margin-left: 500px;
-	margin-right: 100px;
-}
 header img {
     height: 80px;
 	margin-left: 40px;
@@ -359,7 +319,7 @@ header li a {
   
   max-width: 320px;
   margin:-110 auto;
-  margin-right:-100%;
+  margin-right:-80%;
   overflow: hidden;
   position: relative;
   float: right;
@@ -402,4 +362,155 @@ header li a {
 }
 #mydiv {
 	display: none;
+	
 }
+*, *:before, *:after {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  body, button, input {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 8000;
+	letter-spacing: 1.8px;
+  }
+  .background {
+	display: flex;
+	min-height: 100vh;
+  }
+  
+  .container {
+	flex: 0 1 700px;
+	margin: auto;
+	padding: 10px;
+  }
+  
+  .screen {
+	position: relative;
+	background: #5c8a8a;
+	border-radius: 19px;
+	
+  }
+  
+  .screen:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	right: 20px;
+	bottom: 0;
+	border-radius: 15px;
+	box-shadow: 0 20px 40px #5c8a8a;;
+	z-index: -1;
+  }
+  
+  
+  .screen-body {
+	display: flex;
+	height: 450px;
+	margin-top:105px;
+  }
+  
+  .screen-body-item {
+	flex: 1;
+	padding: 55px;
+  }
+  
+  .screen-body-item.left {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .app-title {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	color:#ffffff;
+	font-size: 30px;
+  }
+  
+  .app-title:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	width: 50px;
+	height: 4px;
+	background:rgb(255, 255, 255);
+  }
+  
+  .app-form-group {
+	margin-bottom: 25px;
+	padding-right:29px;
+  }
+  
+  .app-form-group.message {
+	margin-top: 60px;
+  }
+  
+  .app-form-group.buttons {
+	margin-bottom: 0;
+	text-align: right;
+  }
+  .app-form-control {
+	width: 125%;
+	padding: 10px 0;
+	background: none;
+	border: none;
+	border-bottom: 1px solid rgb(189, 170, 170);
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	text-transform: uppercase;
+	outline: none;
+	transition: border-color .2s;
+  }
+  .app-form-control::placeholder {
+	color: rgb(255, 255, 255);
+  }
+  
+  .app-form-control:focus {
+	border-bottom-color: rgb(255, 255, 255);
+  }
+  
+  .app-form-button {
+	background: none;
+	border: none;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	cursor: pointer;
+	outline: none;
+	border-style:solid;
+	border-color:rgb(240, 235, 235);
+	background-color:#5c8a8a;
+  }
+  @media screen and (max-width: 520px) {
+	.screen-body {
+	  flex-direction: column;
+	}
+  
+	.screen-body-item.left {
+	  margin-bottom: 30px;
+	}
+  
+	.app-title {
+	  flex-direction:column;
+	}
+  
+	.app-title span {
+	  margin-right: 12px;
+  
+	}
+  
+	.app-title:after {
+	  display: none;
+	}
+  }
+  @media screen and (max-width: 600px) {
+	.screen-body {
+	  padding: 40px;
+	}
+  }
+  @import url(https://fonts.googleapis.com/css?family=Lato);
+  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
