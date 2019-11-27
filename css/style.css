@@ -244,7 +244,21 @@ color:#2ab1e2;
 
 }
 
+.harta2
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.adresat{
+	text-align: center;
+	font-family:'Candara';
+	font-style: italic;
+	display: inline;
+        font-size: 20;
+}
 
 
 header img {
