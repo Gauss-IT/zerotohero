@@ -522,6 +522,10 @@ header li a {
   display: inline-block;
   width: 33%;
   padding: 20px 30px;
+  transition: transform .2s;
+}
+.feature-box:hover {
+	transform: scale(1.01);
 }
 .feature-box img  {
   margin-bottom: 12px;
