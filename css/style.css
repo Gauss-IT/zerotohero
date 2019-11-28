@@ -309,9 +309,11 @@ header li a {
     font-size: 30px;
 	color:white;
 	margin-top:15px;
+	text-decoration: none;
 }
 .mar {
-    color:#2ab1e2;
+	color:#2ab1e2;
+	text-decoration:none;
 }
 .search-form {
   --searchButtonWidth: 75px;
