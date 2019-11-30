@@ -11,8 +11,8 @@ footer{
 	footer { position:static; }
 }
 
+/*footer*/
 
-/*638583   #48515c     */
 .footer-distributed{
 	background-color:#5c8a8a;
 	box-sizing: border-box;
@@ -179,7 +179,7 @@ color:#2ab1e2;
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
 	.footer-distributed .footer-right{
-		display: block;
+		display:block;
 		width: 100%;
 		margin-bottom: 30px;
 		text-align: center;
@@ -270,7 +270,7 @@ header img {
 	padding-right:8px;
 	
 }
-/*#9fadc6;*/
+
 
 
 header {
@@ -605,7 +605,7 @@ h2{
     -khtml-user-select: none;
     -ms-touch-action: pan-y;
         touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .slick-list
