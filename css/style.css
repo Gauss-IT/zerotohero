@@ -703,3 +703,7 @@ h2{
 .slick-arrow.slick-hidden {
     display: none;
 }
+.table {
+	background:#5c8a8a;
+	color:white;
+}
