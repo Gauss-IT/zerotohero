@@ -778,3 +778,12 @@ h2{
     display: block;
   }
 }
+#myModal {
+	z-index:100000;
+  }
+#myModal2 {
+	z-index:100000;
+  }
+#myModal3 {
+	z-index:100000;
+  }
