@@ -12,6 +12,15 @@
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
             <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+			
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
         
 <title>
 Promocione
@@ -51,24 +60,100 @@ Promocione
             </header>
 <br> <br>
 <br/> <br/>
-<center><h2>Ofertë javore ne Alda Market</h2></center>
 
-<br><br>
+ 
+ 
+<!--Item slider text-->
+<h1 class="text-center"> New Product Promotions</h1>
+<div class="container">
+</div>
 
-</br>
+<!-- Item slider-->
+<div class="container-fluid">
 
-<img src="./images/1.jpg" width="380" height="415" alt="Ofertat" style="margin-left: 98px;">
-<img src="./images/2.jpg" width="380" height="415" alt="Ofertat">
-<img src="./images/3.jpg" width="380" height="415" alt="Ofertat">
-<br/><br/></br>
-<img src="./images/4.jpg" width="380" height="415" alt="Ofertat" style="margin-left: 98px;">
-<img src="./images/5.jpg" width="380" height="415" alt="Ofertat">
-<img src="./images/6.jpg" width="380" height="415" alt="Ofertat">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+        <div class="carousel-inner">
 
+          <div class="item active">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="./images/product1.jpg"  style="max-width:150%;height:45%;" ></a>
+           
+            </div>
+          </div>
 
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="./images/product2.jpg" style="max-width:150%;height:45%;"></a>
+              
+            </div>
+          </div>
 
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="./images/product3.jpg" style="max-width:150%;height:45%;"></a>
+            </div>
+          </div>
 
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="./images/product4.jpg" style="max-width:150%;height:45%;"></a>
+             
+            </div>
+          </div>
 
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="./images/product5.jpg"  style="max-width:150%;height:45%;"></a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="./images/product6.jpg" style="max-width:150%;height:45%;"></a>
+            </div>
+          </div>
+		  
+		  
+
+        </div>
+
+        <div id="slider-control">
+        <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_402-512.png" alt="Left" class="img-responsive"></a>
+        <a class="right carousel-control" href="#itemslider" data-slide="next"><img src="http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png" alt="Right" class="img-responsive"></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>$(document).ready(function(){
+
+$('#itemslider').carousel({ interval: 5000 });
+
+$('.carousel-showmanymoveone .item').each(function(){
+var itemToClone = $(this);
+
+for (var i=1;i<4;i++) {
+itemToClone = itemToClone.next();
+
+if (!itemToClone.length) {
+itemToClone = $(this).siblings(':first');
+}
+
+itemToClone.children(':first-child').clone()
+.addClass("cloneditem-"+(i))
+.appendTo($(this));
+}
+});
+});
+
+</script>
+
+<!-- Item slider end-->
+
+<br/><br/>
 
 <br><br>
 <footer class="footer-distributed">
