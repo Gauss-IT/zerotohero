@@ -222,6 +222,15 @@ color:#2ab1e2;
 	margin-top:60px;
 	margin-right:60px;
 }
+#myModal3 {
+	z-index:100000;
+  }
+#myModal2 {
+	z-index:100000;
+  }
+#myModal3 {
+	z-index:100000;
+  }
 
 .paragraph2 {
 	margin-left:200px;
@@ -778,12 +787,4 @@ h2{
     display: block;
   }
 }
-#myModal {
-	z-index:100000;
-  }
-#myModal2 {
-	z-index:100000;
-  }
-#myModal3 {
-	z-index:100000;
-  }
+
