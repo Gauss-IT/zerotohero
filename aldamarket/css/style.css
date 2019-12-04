@@ -705,3 +705,12 @@ h2{
 	background:#5c8a8a;
 	color:white;
 }
+#myModal {
+	z-index:100000;
+  }
+#myModal2 {
+	z-index:100000;
+  }
+  #myModal3 {
+	z-index:100000;
+  }
