@@ -189,7 +189,8 @@ color:#2ab1e2;
 		
 	}
 	.footer-distributed .footer-center i.fa-phone {
-		margin-left: -60px;}
+		margin-left: -61px;
+	}
 		.footer-distributed .footer-center i.fa-envelope {
 			margin-left: -50px;}
 
@@ -313,12 +314,12 @@ color:#2ab1e2;
 	}
   .nav > .nav-header {
 	display: inline;
-	margin-left:27px;
+	margin-left:25px;
   }
   
   .nav > .nav-header > .nav-title {
 	display: inline-block;
-	font-size: 33px;
+	font-size: 31.5px;
 	color: rgb(255, 255, 255);
 	padding: 10px 10px 10px 10px;
   }
