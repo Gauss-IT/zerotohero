@@ -230,13 +230,15 @@ color:#2ab1e2;
 #myModal2 {
 	z-index:100000;
   }
-#myModal3 {
+#myModal1 {
 	z-index:100000;
   }
 
 .paragraph2 {
-	margin-left:200px;
-	margin-right:200px;
+	margin-left:17%;
+	margin-right:17%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
 }
 
 
