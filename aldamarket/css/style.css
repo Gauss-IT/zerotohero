@@ -515,17 +515,23 @@ color:#2ab1e2;
 	border-color:rgb(240, 235, 235);
 	background-color:#7e8585;
   }
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 800px) {
 	.screen-body {
-	  flex-direction: column;
+	  flex-direction:column;
+	  display: flex;
+	  width: auto;
 	}
 
 	.screen-body-item.left {
-	  margin-bottom: 30px;
+	  margin-bottom: -350px;
+	  margin-left: -2px;
+	  width: 49px;
+	  opacity: 0.3;
 	}
 
 	.app-title {
 	  flex-direction:column;
+	  display: none;
 	}
 
 	.app-title span {
@@ -534,7 +540,11 @@ color:#2ab1e2;
 	}
 
 	.app-title:after {
-	  display: none;
+	}
+	.app-form-control {
+		border-bottom: 1px solid rgb(255, 255, 255);
+		opacity: 2;
+
 	}
   }
   @media screen and (max-width: 600px) {
