@@ -117,11 +117,12 @@ footer{
 	font-weight: normal;
 	font-size:17px;
 	line-height:2;
+	margin-right: -35px;
 }
 
 .footer-distributed .footer-center p a{
 	color: #2ab1e2;;
-	text-decoration: none;;
+	text-decoration: none;
 }
 .footer-distributed .footer-right{
 	width: 30%;
@@ -175,7 +176,7 @@ footer{
 color:#2ab1e2;
 }
 /* Code for responsive */
-@media (max-width: 880px) {
+@media (max-width: 800px) {
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
@@ -184,8 +185,15 @@ color:#2ab1e2;
 		width: 100%;
 		margin-bottom: 30px;
 		text-align:center;
+	
 		
 	}
+	.footer-distributed .footer-center i.fa-phone {
+		margin-left: -60px;}
+		.footer-distributed .footer-center i.fa-envelope {
+			margin-left: -50px;}
+
+
 	
 
 	.footer-distributed .footer-center i{
@@ -205,7 +213,8 @@ color:#2ab1e2;
 }
 
 .foot a:hover {
-  color: #2ab1e2;
+	color:rgb(90, 88, 88);
+
   text-decoration: none ;
 
 }
@@ -338,7 +347,10 @@ color:#2ab1e2;
 	display: none;
   }
   
+  
   @media (max-width:600px) {
+	
+	
 	.nav > .nav-btn {
 	  display: inline-block;
 	  position: absolute;
@@ -544,7 +556,7 @@ color:#2ab1e2;
 	.app-title:after {
 	}
 	.app-form-control {
-		border-bottom: 1px solid rgb(255, 255, 255);
+		border-bottom: 1px solid rgb(255, 255, 255);2
 		opacity: 2;
 
 	}
