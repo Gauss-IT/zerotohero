@@ -32,6 +32,10 @@
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+    <!-- Nvd3 chart css -->
+    <link rel="stylesheet" href="../bower_components/nvd3/css/nv.d3.css" type="text/css" media="all">
+
+
 </head>
 
 
@@ -819,8 +823,20 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- statstic card end -->
-                                            <!-- statstic card start -->
+                                            <!-- Donut Chart start -->
+                                            <div class="col-md-12 col-lg-6">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5>Donut chart</h5>
+                                                        <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                                                        <div class="card-header-right">                                                             <i class="icofont icofont-spinner-alt-5"></i>                                                         </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div id="donutchart" class="nvd-chart w-100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Donut Chart Ends -->
                                           
                                             <!-- statstic card end -->
                                             <!-- statstic card start -->
@@ -909,7 +925,7 @@
     <script src="assets/pages/widget/amchart/amcharts.min.js"></script>
     <script src="assets/pages/widget/amchart/serial.min.js"></script>
     <!-- Chart js -->
-    <script type="text/javascript" src="../bower_components/chart.js/js/Chart.js"></script>
+    <script type="text/javascript" src="../bower_components/chart.js/js/Chart.js"></script>    
     <!-- Todo js -->
     <script type="text/javascript" src="assets/pages/todo/todo.js "></script>
     <!-- i18next.min.js -->
@@ -923,7 +939,14 @@
     <script src="assets/js/pcoded.min.js"></script>
     <script src="assets/js/demo-12.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script type="text/javascript" src="assets/js/script.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.min.js"></script> 
+    <!-- NVD3 chart -->
+    <script src="../bower_components/d3/js/d3.js"></script>
+    <script src="../bower_components/nvd3/js/nv.d3.js"></script>
+    <script src="assets/pages/chart/nv-chart/js/stream_layers.js"></script>    
+
+    <script type="text/javascript" src="assets/pages/chart/nvd3/chart-nvd3.js"></script>
+
 </body>
 
 </html>
