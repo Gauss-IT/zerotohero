@@ -156,7 +156,7 @@ Filters = Y.mix(Y.namespace('AutoCompleteFilters'), {
      * Example use case: Trying to find personal names independently of name
      * order (Western or Eastern order) and supporting immediate feedback by
      * allowing partial occurences. So queries like "J. Doe", "Doe, John", and
-     * "J. D." would all match "John Doe".
+     * "J. D." would all match "Markus Henriksen".
      *
      * @method subWordMatch
      * @param {String} query Query to match
