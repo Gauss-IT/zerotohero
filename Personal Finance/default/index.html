@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>GURU Able - Premium Admin Template </title>
+    <title>ELA Analytics </title>
     <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 10]>
@@ -32,6 +32,10 @@
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+    <!-- Nvd3 chart css -->
+    <link rel="stylesheet" href="../bower_components/nvd3/css/nv.d3.css" type="text/css" media="all">
+
+
 </head>
 
 
@@ -688,68 +692,16 @@
                                         <div class="row">
                                             
                                             <!-- card1 start -->
-                                            <div class="col-md-6 col-xl-3">
-                                                <div class="card widget-card-1">
-                                                    <div class="card-block-small">
-                                                        <i class="icofont icofont-pie-chart bg-c-pink card1-icon"></i>
-                                                        <span class="text-c-blue f-w-600">Use space</span>
-                                                        <h4>49/50GB</h4>
-                                                        <div>
-                                                            <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-blue f-16 icofont icofont-warning m-r-10"></i>Get more space
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                             <!-- card1 end -->
                                             <!-- card1 start -->
-                                            <div class="col-md-6 col-xl-3">
-                                                <div class="card widget-card-1">
-                                                    <div class="card-block-small">
-                                                        <i class="icofont icofont-ui-home bg-c-pink card1-icon"></i>
-                                                        <span class="text-c-pink f-w-600">Revenue</span>
-                                                        <h4>$23,589</h4>
-                                                        <div>
-                                                            <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-pink f-16 icofont icofont-calendar m-r-10"></i>Last 24 hours
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                             <!-- card1 end -->
                                             <!-- card1 start -->
-                                            <div class="col-md-6 col-xl-3">
-                                                <div class="card widget-card-1">
-                                                    <div class="card-block-small">
-                                                        <i class="icofont icofont-warning-alt bg-c-pink card1-icon"></i>
-                                                        <span class="text-c-green f-w-600">Fixed issue</span>
-                                                        <h4>45</h4>
-                                                        <div>
-                                                            <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-green f-16 icofont icofont-tag m-r-10"></i>Tracked from microsoft
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                             <!-- card1 end -->
                                             <!-- card1 start -->
-                                            <div class="col-md-6 col-xl-3">
-                                                <div class="card widget-card-1">
-                                                    <div class="card-block-small">
-                                                        <i class="icofont icofont-social-twitter bg-c-pink card1-icon"></i>
-                                                        <span class="text-c-yellow f-w-600">Followers</span>
-                                                        <h4>+562</h4>
-                                                        <div>
-                                                            <span class="f-left m-t-10 text-muted">
-                                                                <i class="text-c-yellow f-16 icofont icofont-refresh m-r-10"></i>Just update
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                           
                                             <!-- card1 end -->
                                             <!-- Statistics Start -->
                                             <div class="col-md-12 col-xl-8">
@@ -778,8 +730,8 @@
                                                 <div class="card card-blue total-card">
                                                     <div class="card-block">
                                                         <div class="text-left">
-                                                            <h4>4000</h4>
-                                                            <p class="m-0">Total Sales</p>
+                                                            <h4>4000$</h4>
+                                                            <p class="m-0">Income</p>
                                                         </div>
                                                         <span class="label bg-c-blue value-badges">12%</span>
                                                     </div>
@@ -789,42 +741,157 @@
                                                 <div class="card card-pink total-card">
                                                     <div class="card-block">
                                                         <div class="text-left">
-                                                            <h4>489</h4>
-                                                            <p class="m-0">Total Comment</p>
+                                                            <h4>489$</h4>
+                                                            <p class="m-0">Expenses</p>
                                                         </div>
                                                         <span class="label bg-c-pink value-badges">15%</span>
                                                     </div>
                                                     <canvas id="total-value-graph-2" class="total-value-graph" height="100"></canvas>
                                                 </div>
                                             </div>
-                                            <!-- Statistics End -->
-                                            <!-- statstic card start -->
-                                            <div class="col-md-12 col-xl-4">
-                                                <div class="card widget-statstic-card">
-                                                    <div class="card-header">
-                                                        <div class="card-header-left">
-                                                            <h5>Statistics</h5>
-                                                            <p class="p-t-10 m-b-0 text-c-blue">Compared to last week</p>
+                                        <!-- Statistics and revenue Start -->
+                                        <div class="col-md-12 ">
+                                            <div class="card card-statistics ">
+                                                <div class="card-header ">
+                                                    <div class="card-header-left ">
+                                                        <h5>Statistics of circulation, total earning and total revenue</h5>
+                                                    </div>
+                                                    <div class="card-header-right">
+                                                        <ul class="list-unstyled card-option">
+                                                            <li><i class="icofont icofont-simple-left "></i></li>
+                                                            <li><i class="icofont icofont-maximize full-card"></i></li>
+                                                            <li><i class="icofont icofont-minus minimize-card"></i></li>
+                                                            <li><i class="icofont icofont-refresh reload-card"></i></li>
+                                                            <li><i class="icofont icofont-error close-card"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="card-block ">
+                                                    <div class="row ">
+                                                        <div class="col-sm-4 ">
+                                                            <div class="row stats-block">
+                                                                <div class="col-lg-6 ">
+                                                                    <div class="progressbar-v-1">
+                                                                        <div class="chart" data-percent="90"
+                                                                             data-barColor="#4680FE"
+                                                                             data-trackColor="#dbdada"
+                                                                             data-lineWidth="6" data-barSize="110">
+                                                                            <div class="chart-percent"><span></span>%
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 ">
+                                                                    <h2 class="f-w-600 ">5,879</h2>
+                                                                    <p class="text-muted">Total circulation</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4 ">
+                                                            <div class="row stats-block">
+                                                                <div class="col-lg-6 ">
+                                                                    <div class="progressbar-v-1">
+                                                                        <div class="chart" data-percent="70"
+                                                                             data-barColor="#FC6180"
+                                                                             data-trackColor="#dbdada"
+                                                                             data-lineWidth="6" data-barSize="110">
+                                                                            <div class="chart-percent"><span></span>%
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 ">
+                                                                    <h2 class="f-w-600 ">2,456 €</h2>
+                                                                    <p class="text-muted ">Total earnings</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4 ">
+                                                            <div class="row stats-block">
+                                                                <div class="col-lg-6 ">
+                                                                    <div class="progressbar-v-1">
+                                                                        <div class="chart" data-percent="75"
+                                                                             data-barColor="#FFB64D"
+                                                                             data-trackColor="#dbdada"
+                                                                             data-lineWidth="6" data-barSize="110">
+                                                                            <div class="chart-percent"><span></span>%
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 ">
+                                                                    <h2 class="f-w-600 ">3,198</h2>
+                                                                    <p class="text-muted ">Total revenue</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="card-block">
-                                                        <i class="icofont icofont-presentation-alt st-icon bg-c-blue"></i>
-
-                                                        <div class="text-left">
-                                                            <h3 class="d-inline-block">5,456</h3>
-                                                            <i class="icofont icofont-long-arrow-up f-30 text-c-green"></i>
-                                                            <span class="f-right">23%</span>
+                                                    <div class="b-t-default p-t-20 m-t-30">
+                                                        <div class="row ">
+                                                            <div class="col-sm-4 ">
+                                                                <h6 class="d-inline-block m-r-10 ">Circulation growth</h6>
+                                                                <span class="label bg-c-blue ">28%</span>
+                                                            </div>
+                                                            <div class="col-sm-4 ">
+                                                                <h6 class="d-inline-block m-r-10 ">Earning growth</h6>
+                                                                <span class="label bg-c-pink ">12%</span>
+                                                            </div>
+                                                            <div class="col-sm-4 ">
+                                                                <h6 class="d-inline-block m-r-10 ">Revenue growth</h6>
+                                                                <span class="label bg-c-yellow ">56%</span>
+                                                            </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <!-- Statistics and revenue End -->
+                                            <!-- Widget Chart Start -->
+                                            <div class="col-md-12 col-xl-7 ">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="card-header-left ">
+                                                            <h5>Monthly view</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block-big">
+                                                        <div id="monthly-graph" style="height:250px"></div>
+                                                        <div id="monthly-view">
+                                                            <h4 class="text-center f-w-400 f-20 m-b-20">November 2017</h4>
+                                                            <div class="row">
+                                                                <div class="col-6 b-r-default">
+                                                                    <h4 class="f-w-400">2,874 $</h4>
+                                                                    <p class="text-muted f-16">Earned</p>
+                                                                </div>
+                                                                <div class="col-6 text-right">
+                                                                    <h4 class="f-w-400">1,628 $</h4>
+                                                                    <p class="text-muted f-16">Spent</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Widget Chart End -->
+                                            
+                                            <!-- Donut Chart start -->
+                                            <div class="col-md-4 col-lg-5">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5>Donut chart</h5>
+                                                        <span>Personal savings represented in a pie chart form</span>
+                                                        <div class="card-header-right">                                                             <i class="icofont icofont-spinner-alt-5"></i>                                                         </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div id="donutchart" class="nvd-chart w-100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Donut Chart Ends -->
+
                                             <!-- statstic card end -->
                                             <!-- statstic card start -->
-                                          
-                                            <!-- statstic card end -->
-                                            <!-- statstic card start -->
-                                          
+                                            
                                             <!-- statstic card end -->
                                             
                                             <!-- Email Sent End -->
@@ -909,7 +976,11 @@
     <script src="assets/pages/widget/amchart/amcharts.min.js"></script>
     <script src="assets/pages/widget/amchart/serial.min.js"></script>
     <!-- Chart js -->
-    <script type="text/javascript" src="../bower_components/chart.js/js/Chart.js"></script>
+    <script type="text/javascript" src="../bower_components/chart.js/js/Chart.js"></script>  
+     <!-- Float Chart js -->
+    <script src="assets/pages/chart/float/jquery.flot.js"></script>
+    <script src="assets/pages/chart/float/jquery.flot.categories.js "></script>
+    <script src="assets/pages/chart/float/jquery.flot.pie.js "></script>  
     <!-- Todo js -->
     <script type="text/javascript" src="assets/pages/todo/todo.js "></script>
     <!-- i18next.min.js -->
@@ -923,7 +994,19 @@
     <script src="assets/js/pcoded.min.js"></script>
     <script src="assets/js/demo-12.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script type="text/javascript" src="assets/js/script.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.min.js"></script> 
+    <script type="text/javascript" src="assets/pages/widget/custom-widget1.js "></script>
+    <!-- NVD3 chart -->
+    <script src="../bower_components/d3/js/d3.js"></script>
+    <script src="../bower_components/nvd3/js/nv.d3.js"></script>
+    <script src="assets/pages/chart/nv-chart/js/stream_layers.js"></script>    
+
+    <script type="text/javascript" src="assets/pages/chart/nvd3/chart-nvd3.js"></script>
+    <!-- counter js -->
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <script src="assets/js/counter.js"></script>
+
+
 </body>
 
 </html>

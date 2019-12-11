@@ -1164,8 +1164,8 @@ $(document).ready(function() {
         var chartData = [{
             "date": "2012-01-01",
             "distance": 327,
-            "townName": "New York",
-            "townName2": "New York",
+            "townName": "Cell phone",
+            "townName2": "Cell phone",
             "townSize": 25,
             "latitude": 40.71,
             "duration": 408
@@ -1193,8 +1193,8 @@ $(document).ready(function() {
         }, {
             "date": "2012-01-05",
             "distance": 480,
-            "townName": "Miami",
-            "townName2": "Miami",
+            "townName": "Gas",
+            "townName2": "Gas",
             "townSize": 10,
             "latitude": 25.83,
             "duration": 501
@@ -1215,8 +1215,8 @@ $(document).ready(function() {
         }, {
             "date": "2012-01-08",
             "distance": 298,
-            "townName": "Houston",
-            "townName2": "Houston",
+            "townName": "Groceries",
+            "townName2": "Groceries",
             "townSize": 16,
             "latitude": 29.76,
             "duration": 309
@@ -1244,8 +1244,8 @@ $(document).ready(function() {
         }, {
             "date": "2012-01-12",
             "distance": 534,
-            "townName": "Denver",
-            "townName2": "Denver",
+            "townName": "Health Insurance",
+            "townName2": "Health Insurance",
             "townSize": 18,
             "latitude": 39.74,
             "duration": 450
@@ -1261,8 +1261,8 @@ $(document).ready(function() {
             "date": "2012-01-14",
             "latitude": 36.1,
             "duration": 460,
-            "townName": "Las Vegas",
-            "townName2": "Las Vegas",
+            "townName": "Rent",
+            "townName2": "Rent",
             "bulletClass": "lastBullet"
         }];
         var chart = AmCharts.makeChart("monthly-graph", {
@@ -1302,7 +1302,7 @@ $(document).ready(function() {
 
             "valueAxes": [{
                 "id": "a1",
-                "title": "Student",
+                "title": "Amount $",
                 "gridAlpha": 0,
                 "axisAlpha": 0
             }, {
@@ -1330,7 +1330,7 @@ $(document).ready(function() {
                 "cornerRadiusTop": 5,
                 // "columnWidth": 0.3,
                 "valueAxis": "a1",
-                "balloonText": "[[value]] miles",
+                "balloonText": "[[value]] dollars",
                 "legendValueText": "[[value]] mi",
                 "legendPeriodValueText": "total: [[value.sum]] mi",
                 "lineColor": "#4680ff",
@@ -1356,7 +1356,7 @@ $(document).ready(function() {
                 "bulletColor": "#B5CDFF",
                 "labelText": "[[townName2]]",
                 "labelPosition": "right",
-                "balloonText": "latitude:[[value]]",
+                "balloonText": "amount earned:[[value]]",
                 "showBalloon": true,
                 "animationPlayed": true,
             }, {
@@ -1367,7 +1367,7 @@ $(document).ready(function() {
                 "type": "smoothedLine",
                 "valueAxis": "a3",
                 "lineColor": "#FC6180",
-                "balloonText": "[[value]]",
+                "balloonText": "amount spent:[[value]]",
                 "lineThickness": 2,
                 "legendValueText": "[[value]]",
                 "bullet": "round",
