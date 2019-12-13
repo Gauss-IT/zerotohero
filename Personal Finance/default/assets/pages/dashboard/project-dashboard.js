@@ -179,7 +179,7 @@ $(document).ready(function() {
                 "year": "Aug",
                 "value": 0.77
             }, {
-                "year": "Sap",
+                "year": "Sep",
                 "value": 3.1
             }],
             "valueAxes": [{
@@ -226,20 +226,20 @@ $(document).ready(function() {
             "hideCredits": true,
             "theme": "light",
             "dataProvider": [{
-                "country": "Lithuania",
-                "color": '#93BE52',
+                "country": "Norway",
+                "color": '#EF2B2D',
                 "value": 260
             }, {
-                "country": "Ireland",
-                "color": '#4680ff',
+                "country": "Sweden",
+                "color": '#FFCD00',
                 "value": 201
             }, {
-                "country": "Germany",
-                "color": '#FC6180',
+                "country": "Denmark",
+                "color": '#006A44',
                 "value": 65
             }, {
-                "country": "Australia",
-                "color": '#FFB64D',
+                "country": "Iceland",
+                "color": '#02529C',
                 "value": 39
             }],
             "valueField": "value",
