@@ -18,7 +18,7 @@
     <meta name="author" content="#">
     <!-- Favicon icon -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
     <!-- Required Fremwork -->
@@ -907,7 +907,45 @@
                                             
 
                                             <!-- Email Sent Start -->
-                                            <div class="col-lg-10 col-xl-8 card bg-c-pink week-sales-card " >
+                                            <div class="col-md-12 col-xl-6">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <div class="card-header-left">
+                                                        <h5>Monthly earning</h5>
+                                                    </div>
+                                                    <div class="card-header-right">
+                                                        <ul class="list-unstyled card-option">
+                                                            <li><i class="icofont icofont-simple-left "></i></li>
+                                                            <li><i class="icofont icofont-maximize full-card"></i></li>
+                                                            <li><i class="icofont icofont-minus minimize-card"></i></li>
+                                                            <li><i class="icofont icofont-refresh reload-card"></i></li>
+                                                            <li><i class="icofont icofont-error close-card"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="monthly-earning">
+                                                        <canvas id="monthly-earning" height="300"></canvas>
+                                                        <div class="monthly-data">
+                                                            <div class="row">
+                                                                <div class="col-sm-5 earn">
+                                                                    <h5>Total Earned</h5>
+                                                                    <h3 class="f-w-400 m-t-10">$45,634</h3>
+                                                                </div>
+                                                                <div class="col-sm-7 spent">
+                                                                    <h5>Total Spent</h5>
+                                                                    <h3 class="f-w-400 m-t-10">$67,452</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Monthly Chart Start -->
+                                        <!-- Sentiment SVG Start -->
+                                        <div class="col-md-12 col-xl-6 ">
+                                                <div class="card bg-c-pink week-sales-card ">
                                                     <div class="card-header ">
                                                         <div class="card-header-left ">
                                                             <h5>Last week sales</h5>
@@ -918,59 +956,7 @@
                                                     </div>
                                                     <div id="last-week-sales" class="last-week-sales"></div>
                                                 </div>
-
-                                                <div class="col-md-8 col-xl-4">
-                                                        <div class="card sentiment-card">
-                                                            <div class="card-header">
-                                                                <div class="card-header-left">
-                                                                    <h5>Sentiment</h5>
-                                                                </div>
-                                                                <div class="card-header-right">
-                                                                    <ul class="list-unstyled card-option">
-                                                                        <li><i class="icofont icofont-simple-left "></i></li>
-                                                                        <li><i class="icofont icofont-maximize full-card"></i></li>
-                                                                        <li><i class="icofont icofont-minus minimize-card"></i></li>
-                                                                        <li><i class="icofont icofont-refresh reload-card"></i></li>
-                                                                        <li><i class="icofont icofont-error close-card"></i></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                            <div class="card-block text-center">
-                                                                <div class="row sentiment-center">
-                                                                    <div class="col-sm-3">
-                                                                        <h4>793</h4>
-                                                                    </div>
-                                                                    <div class="col-sm-5">
-                                                                        <div class="happyball"></div>
-                                                                    </div>
-                                                                    <div class="col-sm-4">
-                                                                        <h4 class="text-c-green">75%</h4>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row">
-                                                                    <div class="col-sm-12">
-                                                                        <h6 class="text-muted m-t-10">Positive Review</h6>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row sentiment-center b-t-default p-t-20 m-t-20">
-                                                                    <div class="col-sm-3">
-                                                                        <h4>103</h4>
-                                                                    </div>
-                                                                    <div class="col-sm-5">
-                                                                        <div class="sadball"></div>
-                                                                    </div>
-                                                                    <div class="col-sm-4">
-                                                                        <h4 class="text-c-pink">23%</h4>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row">
-                                                                    <div class="col-sm-12">
-                                                                        <h6 class="text-muted m-t-10">Negative Review</h6>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            </div>
                                             <!-- Email Sent End -->
 
                                             <!-- Monthly Chart Start -->
@@ -1079,7 +1065,6 @@
     <script src="assets/pages/chart/float/jquery.flot.js"></script>
     <script src="assets/pages/chart/float/jquery.flot.categories.js "></script>
     <script src="assets/pages/chart/float/jquery.flot.pie.js "></script>
-
     <!-- Rickshow Chart js -->
     <script src="../bower_components/d3/js/d3.js"></script>
     <script src="assets/pages/chart/rickshow/d3.layout.min.js"></script>
@@ -1096,6 +1081,7 @@
     <script src="../bower_components/peity/js/jquery.peity.js "></script>
     <!-- knob js -->
     <script src="assets/pages/chart/knob/jquery.knob.js"></script>
+    
     <!-- i18next.min.js -->
     <script type="text/javascript" src="../bower_components/i18next/js/i18next.min.js"></script>
     <script type="text/javascript" src="../bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
@@ -1103,20 +1089,18 @@
     <script type="text/javascript" src="../bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
     <script type="text/javascript" src="assets/js/SmoothScroll.js"></script>
     <!-- Custom js -->
+    <script type="text/javascript" src="assets/pages/chart/echarts/echart-custom.js"></script>
     <script type="text/javascript" src="assets/pages/dashboard/crm-dashboard.min.js"></script>
     <script src="assets/js/pcoded.min.js"></script>
     <script src="assets/js/demo-12.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-
     <script type="text/javascript" src="assets/pages/widget/jquery.sparkline.js "></script>
     <script type="text/javascript" src="assets/pages/widget/widget-advanced.min.js "></script>
-    
     <script type="text/javascript" src="assets/pages/chart/knob/knob-custom-chart.js"></script>
-
-    
-    
-    
+    <script type="text/javascript" src="assets/pages/widget/waterball/createWaterBall-jquery.js "></script>
+    <script type="text/javascript" src="assets/pages/widget/custom-widget1.js "></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js "></script>
     <script src="assets/js/jquery.mousewheel.min.js "></script>
     <script type="text/javascript" src="assets/js/script.min.js "></script>
 </body>
