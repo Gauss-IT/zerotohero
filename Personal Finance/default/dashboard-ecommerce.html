@@ -142,7 +142,7 @@
                                     </li>
                                     <li>
                                         <div class="media">
-                                            <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center" src="assets/images/widget/user-2.png" alt="Generic placeholder image">
                                             <div class="media-body">
                                                 <h5 class="notification-user">Bjorn Gabrielsen</h5>
                                                 <p class="notification-msg">There has been an increase in your expenses this month.</p>
@@ -152,7 +152,7 @@
                                     </li>
                                     <li>
                                         <div class="media">
-                                            <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center" src="assets/images/widget/user-3.png" alt="Generic placeholder image">
                                             <div class="media-body">
                                                 <h5 class="notification-user">Martin Johansen</h5>
                                                 <p class="notification-msg">Check out the last changes in your income.</p>
@@ -162,7 +162,7 @@
                                     </li>
                                     <li>
                                         <div class="media">
-                                            <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center" src="assets/images/widget/user-4.png" alt="Generic placeholder image">
                                             <div class="media-body">
                                                 <h5 class="notification-user">Rune Nordveit</h5>
                                                 <p class="notification-msg">Ways to supervise your personal financial resources.</p>
@@ -865,74 +865,167 @@
                                             <!-- Marketing Start -->
                                             
                                             <!-- Marketing End -->
-
-                                            <!-- map & Chart Start -->
-                                            <div class="col-md-12 col-xl-7">
-                                                <div class="row">
-                                                    <div class="col-sm-12">
-                                                        <div class="card card-chart o-hidden">
-                                                            <div class="card-block">
-                                                                <h2 class="f-w-400 m-b-15">43,678K</h2>
-                                                                <h5>Daily income</h5>
-                                                                <h6 class="text-muted d-inline-block card-chart-right f-w-600"><i class="icofont icofont-long-arrow-up f-20 f-w-600"></i>34 %</h6>
+                                            <div class="col-sm-12">
+                                                    <div class="card">
+                                                        <div class="card-header">
+                                                            <div class="card-header-left">
+                                                                <h5>Net worth report</h5>
                                                             </div>
-                                                            <div id="realtimeupdate"></div>
+                                                            <div class="card-header-right">
+                                                                <ul class="list-unstyled card-option">
+                                                                    <li><i class="icofont icofont-simple-left "></i>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="icofont icofont-maximize full-card"></i>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="icofont icofont-minus minimize-card"></i>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="icofont icofont-refresh reload-card"></i>
+                                                                    </li>
+                                                                    <li><i class="icofont icofont-error close-card"></i>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-sm-12">
-                                                        <div class="card">
-                                                            <div class="card-header">
-                                                                <div class="card-header-left">
-                                                                    <h5>Net worth report</h5>
-                                                                </div>
-                                                                <div class="card-header-right">
-                                                                    <ul class="list-unstyled card-option">
-                                                                        <li><i class="icofont icofont-simple-left "></i>
-                                                                        </li>
-                                                                        <li>
-                                                                            <i class="icofont icofont-maximize full-card"></i>
-                                                                        </li>
-                                                                        <li>
-                                                                            <i class="icofont icofont-minus minimize-card"></i>
-                                                                        </li>
-                                                                        <li>
-                                                                            <i class="icofont icofont-refresh reload-card"></i>
-                                                                        </li>
-                                                                        <li><i class="icofont icofont-error close-card"></i>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                            <div class="card-block p-0">
-                                                                <div class="card-block-big revenue-report">
-                                                                    <div class="row">
-                                                                        <div class="col-lg-3">
-                                                                            <h3 class="f-w-400">$10,112</h3>
+                                                        <div class="card-block p-0">
+                                                            <div class="card-block-big revenue-report">
+                                                                <div class="row">
+                                                                    <div class="col-lg-3">
+                                                                        <h3 class="f-w-400">$10,112</h3>
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <canvas id="revenue-report" height="150"></canvas>
+                                                                    </div>
+                                                                    <div class="col-lg-4">
+                                                                        <div class="revenue-card p-b-10">
+                                                                            <span class="bg-c-blue"></span>
+                                                                            <h6 class="text-muted d-inline-block m-l-20">
+                                                                                Previous month</h6>
+                                                                            <h6 class="d-inline-block m-l-20 f-w-600">
+                                                                                $57,423</h6>
                                                                         </div>
-                                                                        <div class="col-lg-3">
-                                                                            <canvas id="revenue-report" height="150"></canvas>
-                                                                        </div>
-                                                                        <div class="col-lg-4">
-                                                                            <div class="revenue-card p-b-10">
-                                                                                <span class="bg-c-blue"></span>
-                                                                                <h6 class="text-muted d-inline-block m-l-20">
-                                                                                    Previous month</h6>
-                                                                                <h6 class="d-inline-block m-l-20 f-w-600">
-                                                                                    $57,423</h6>
-                                                                            </div>
-                                                                            <div class="revenue-card b-t-default  p-t-10">
-                                                                                <span class="bg-c-green m-t-10"></span>
-                                                                                <h6 class="text-muted d-inline-block m-l-20">
-                                                                                    This month</h6>
-                                                                                <h6 class="d-inline-block m-l-20 f-w-600">
-                                                                                    $48,689</h6>
-                                                                            </div>
+                                                                        <div class="revenue-card b-t-default  p-t-10">
+                                                                            <span class="bg-c-green m-t-10"></span>
+                                                                            <h6 class="text-muted d-inline-block m-l-20">
+                                                                                This month</h6>
+                                                                            <h6 class="d-inline-block m-l-20 f-w-600">
+                                                                                $48,689</h6>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                            <!-- map & Chart Start -->
+                                            <div class="col-md-12 col-xl-7">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-sm-12">
+                                                            <div class="card review-task">
+                                                                    <div class="card-header">
+                                                                        <div class="card-header-left">
+                                                                            <h5>Reviews</h5>
+                                                                        </div>
+                                                                        <div class="card-header-right">
+                                                                            <ul class="list-unstyled card-option">
+                                                                                <li><i class="icofont icofont-simple-left "></i></li>
+                                                                                <li><i class="icofont icofont-maximize full-card"></i></li>
+                                                                                <li><i class="icofont icofont-minus minimize-card"></i></li>
+                                                                                <li><i class="icofont icofont-refresh reload-card"></i></li>
+                                                                                <li><i class="icofont icofont-error close-card"></i></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-block">
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-hover">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td><a href="#!"><img class="img-rounded" src="assets/images/widget/user-1.png" alt="chat-user"></a>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <h6>Sara Henriksen</h6>
+                                                                                            <p class="text-muted">Liabilities of the previous month...</p>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <p class="review-date">09 Fab</p>
+                                                                                            <p class="">09:40 AM</p>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#!"><i class="icofont icofont-star  f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td><a href="#!"><img class="img-rounded" src="assets/images/widget/user-2.png" alt="chat-user"></a>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <h6>Bjorn Gabrielsen</h6>
+                                                                                            <p class="text-muted">I am fasincated by the net-worth...</p>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <p class="review-date">04 Jan</p>
+                                                                                            <p class="">10:45 AM</p>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#!"><i class="icofont icofont-star  f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-c-default"></i></a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td><a href="#!"><img class="img-rounded" src="assets/images/widget/user-3.png" alt="chat-user"></a>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <h6>Martin Johansen</h6>
+                                                                                            <p class="text-muted">Total annual income has gone up</p>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <p class="review-date">16 Dec</p>
+                                                                                            <p class="">12:00 PM</p>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#!"><i class="icofont icofont-star  f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td><a href="#!"><img class="img-rounded" src="assets/images/widget/user-4.png" alt="chat-user"></a>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <h6>Rune nordveit</h6>
+                                                                                            <p class="text-muted"></p>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <p class="review-date">04 Jan</p>
+                                                                                            <p class="">10:45 AM</p>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#!"><i class="icofont icofont-star  f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-c-blue"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                            <a href="#!"><i class="icofont icofont-star f-18 text-default"></i></a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
                                             <div class="col-md-12 col-xl-5">
