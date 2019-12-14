@@ -259,15 +259,15 @@ $(document).ready(function() {
             "hideCredits": true,
             "theme": "light",
             "dataProvider": [{
-                "country": "Project Processed",
+                "country": "Income",
                 "color": '#4680ff',
                 "value": 201
             }, {
-                "country": "Project Returned",
+                "country": "Expenses",
                 "color": '#FC6180',
                 "value": 65
             }, {
-                "country": "Project Sold",
+                "country": "Loan",
                 "color": '#FFB64D',
                 "value": 39
             }],
