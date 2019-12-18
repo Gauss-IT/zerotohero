@@ -245,7 +245,7 @@ var framework = {
 		}
 
 		// Detect SVG support
-		featurno.svg = !!document.createElementNS && 
+		features.svg = !!document.createElementNS && 
 						!!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect;
 
 		framework.features = features;
@@ -902,7 +902,7 @@ var publicMethods = {
 		}
 		rootClasses += _likelyTouchDevice ? 'pswp--touch' : 'pswp--notouch';
 		rootClasses += _features.animationName ? ' pswp--css_animation' : '';
-		rootClasses += _featurno.svg ? ' pswp--svg' : '';
+		rootClasses += _features.svg ? ' pswp--svg' : '';
 		framework.addClass(template, rootClasses);
 
 		self.updateSize();
