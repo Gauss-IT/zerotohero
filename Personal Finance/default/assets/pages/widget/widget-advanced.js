@@ -842,7 +842,7 @@ $(document).ready(function() {
                     "v2": 3.5
                 },
                 {
-                    "year": "Sap",
+                    "year": "Sep",
                     "v1": 4,
                     "v2": 5.5
                 },
