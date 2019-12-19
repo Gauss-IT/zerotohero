@@ -2163,7 +2163,7 @@
                                                     <i class="icofont icofont-map bg-c-pink"></i>
                                                     <div class="d-inline">
                                                         <h4>Location</h4>
-                                                        <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                                                        <span>Ela Analytics offices are shown on the maps below</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2192,7 +2192,7 @@
                                             <div class="col-xs-12 col-sm-12 col-lg-12">
                                                 <div class="card">
                                                     <div class="card-block">
-                                                        <div id="map"></div>
+                                                        <div id="map"><iframe src="https://www.google.com/maps/d/embed?mid=1XpKmMaba5wED2Sm6tKujMMgRqMMD4COJ" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2270,7 +2270,7 @@
     <script type="text/javascript" src="../bower_components/modernizr/js/css-scrollbars.js"></script>
 
     <!-- Location js -->
-    <script type="text/javascript" src="assets/pages/location/leaflet-mapbox-gl.js"></script>
+    
     <!-- i18next.min.js -->
     <script type="text/javascript" src="../bower_components/i18next/js/i18next.min.js"></script>
     <script type="text/javascript" src="../bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
@@ -2282,58 +2282,7 @@
     <script src="assets/js/demo-12.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
 
-    <script>
-        var map = L.map('map', {
-            maxZoom: 17
-        }).setView([-37.821, 175.219], 16);
-        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        var greenIcon = L.icon({
-            iconUrl: 'assets/images/social/img1.jpg',
-            shadowUrl: 'assets/images/social/profile.jpg',
-
-            iconSize: [38, 95], // size of the icon
-            shadowSize: [50, 64], // size of the shadow
-            iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-            shadowAnchor: [4, 62], // the same for the shadow
-            popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
-        });
-
-        var gl = L.mapboxGL({
-            accessToken: 'no-token',
-            style: 'https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/styles/bright-v9-cdn.json'
-        }).addTo(map);
-
-        var LeafIcon = L.Icon.extend({
-            options: {
-                shadowUrl: 'assets/images/social/img1.jpg',
-                iconSize: [38, 95],
-                shadowSize: [50, 64],
-                iconAnchor: [22, 94],
-                shadowAnchor: [4, 62],
-                popupAnchor: [-3, -76]
-            }
-        });
-
-
-
-
-        var markers = L.markerClusterGroup();
-
-        for (var i = 0; i < addressPoints.length; i++) {
-            var a = addressPoints[i];
-            var title = a[2];
-            var marker = L.marker(new L.LatLng(a[0], a[1]), {
-                title: title
-            });
-            marker.bindPopup(title);
-            markers.addLayer(marker);
-        }
-
-        map.addLayer(markers);
-    </script>
+   
 <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
