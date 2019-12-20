@@ -335,7 +335,7 @@ $dark-layout-color: #303548;
                 }
 
                 .show-notification {
-                    background: #fff;
+                    background: rgb(255, 255, 255);
                     box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.03), 0 -2px 1px -2px rgba(0, 0, 0, 0.02), 0 0 0 -1px rgba(0, 0, 0, 0.03);
                     opacity: 0;
                     position: absolute;
@@ -344,6 +344,7 @@ $dark-layout-color: #303548;
                     transition: all 0.3s ease-in-out;
                     visibility: hidden;
                     width: 24rem;
+                   
 
                     a {
                         color: $theme-font-color;
