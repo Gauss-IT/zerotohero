@@ -736,7 +736,7 @@ $(document).ready(function() {
                 "title": "red line",
                 "useLineColorForBulletBorder": true,
                 "valueField": "value",
-                "balloonText": "<span style='font-size:18px;'>[[value]]</span>"
+                "balloonText": "<span style='font-size:18px;'>[[value]]$</span>"
             }],
             "chartCursor": {
                 "valueLineEnabled": false,
@@ -762,32 +762,32 @@ $(document).ready(function() {
                 "gridAlpha": 0,
             },
             "dataProvider": [{
-                "date": "2012-11-19",
+                "date": "2019-12-19",
                 "value": 87
             }, {
-                "date": "2012-11-20",
+                "date": "2019-12-20",
                 "value": 83
             }, {
-                "date": "2012-11-21",
+                "date": "2019-12-21",
                 "value": 85
             }, {
-                "date": "2012-11-22",
+                "date": "2019-12-22",
                 "value": 81
             }, {
-                "date": "2012-11-23",
+                "date": "2019-12-23",
                 "value": 82
             }, {
-                "date": "2012-11-24",
+                "date": "2019-12-24",
                 "value": 79
             }, {
-                "date": "2012-11-25",
+                "date": "2019-12-25",
                 "value": 73
             }, {
-                "date": "2012-11-26",
+                "date": "2019-12-26",
                 "value": 75
             }, {
-                "date": "2012-11-27",
-                "value": 71
+                "date": "2019-12-27",
+                "value": 72
             }]
         });
     };
