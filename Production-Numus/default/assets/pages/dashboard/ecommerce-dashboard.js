@@ -146,8 +146,8 @@ $(document).ready(function() {
                 "valueField": "sales2",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "$[[value]]M",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>$[[value]]M</b>"
+                "legendValueText": "[[value]]M NOK",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
             }, {
                 "id": "g4",
                 "valueAxis": "v1",
@@ -155,12 +155,12 @@ $(document).ready(function() {
                 "fillColors": "#FC6180",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Target Sales",
+                "title": "Liabilities",
                 "valueField": "sales1",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "$[[value]]M",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>$[[value]]M</b>"
+                "legendValueText": "[[value]]M NOK",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
             }, {
                 "id": "g1",
                 "valueAxis": "v2",
@@ -184,12 +184,12 @@ $(document).ready(function() {
                 "fillColors": "#FFB64D",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Assets",
+                "title": "Net Worth",
                 "valueField": "sales2",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "$[[value]]M",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>$[[value]]M</b>"
+                "legendValueText": "[[value]]M NOK",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
             }],
             "chartCursor": {
                 "pan": true,
@@ -218,43 +218,43 @@ $(document).ready(function() {
                 "enabled": true
             },
             "dataProvider": [{
-                "date": "2013-01-16",
+                "date": "2020-01-16",
                 "market1": 91,
                 "market2": 75,
                 "sales1": 5,
                 "sales2": 8
             }, {
-                "date": "2013-01-17",
+                "date": "2020-01-17",
                 "market1": 74,
                 "market2": 78,
                 "sales1": 4,
                 "sales2": 6
             }, {
-                "date": "2013-01-18",
+                "date": "2020-01-18",
                 "market1": 78,
                 "market2": 88,
                 "sales1": 5,
                 "sales2": 2
             }, {
-                "date": "2013-01-19",
+                "date": "2020-01-19",
                 "market1": 85,
                 "market2": 89,
                 "sales1": 8,
                 "sales2": 9
             }, {
-                "date": "2013-01-20",
+                "date": "2020-01-20",
                 "market1": 82,
                 "market2": 89,
                 "sales1": 9,
                 "sales2": 6
             }, {
-                "date": "2013-01-21",
+                "date": "2020-01-21",
                 "market1": 83,
                 "market2": 85,
                 "sales1": 3,
                 "sales2": 5
             }, {
-                "date": "2013-01-22",
+                "date": "2020-01-22",
                 "market1": 78,
                 "market2": 92,
                 "sales1": 5,
