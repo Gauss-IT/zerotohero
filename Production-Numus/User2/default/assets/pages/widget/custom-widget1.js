@@ -1386,7 +1386,7 @@ $(document).ready(function() {
             "marginRight": 0,
             "dataProvider": [{
                 "year": "Jan",
-                "value": 0.98
+                "value": 0.99
             }, {
                 "year": "Feb",
                 "value": 1.87
