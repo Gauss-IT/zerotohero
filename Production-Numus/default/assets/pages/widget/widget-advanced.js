@@ -700,7 +700,7 @@ $(document).ready(function() {
             "theme": "light",
             "hideCredits": true,
             "marginRight": 0,
-            "marginLeft": 0,
+            "marginLeft": 10,
             "autoMarginOffset": 0,
             "dataDateFormat": "YYYY-MM-DD",
             "valueAxes": [{
@@ -736,7 +736,7 @@ $(document).ready(function() {
                 "title": "red line",
                 "useLineColorForBulletBorder": true,
                 "valueField": "value",
-                "balloonText": "<span style='font-size:18px;'>[[value]]$</span>"
+                "balloonText": "<span style='font-size:18px;'>[[value]]NOK</span>"
             }],
             "chartCursor": {
                 "valueLineEnabled": false,
@@ -762,31 +762,31 @@ $(document).ready(function() {
                 "gridAlpha": 0,
             },
             "dataProvider": [{
-                "date": "2019-12-19",
-                "value": 87
-            }, {
-                "date": "2019-12-20",
-                "value": 83
-            }, {
-                "date": "2019-12-21",
-                "value": 85
-            }, {
-                "date": "2019-12-22",
-                "value": 81
-            }, {
-                "date": "2019-12-23",
-                "value": 82
-            }, {
-                "date": "2019-12-24",
+                "date": "2020-01-19",
                 "value": 79
             }, {
-                "date": "2019-12-25",
+                "date": "2020-01-20",
+                "value": 83
+            }, {
+                "date": "2020-01-21",
+                "value": 85
+            }, {
+                "date": "2020-01-22",
+                "value": 81
+            }, {
+                "date": "2020-01-23",
+                "value": 82
+            }, {
+                "date": "2020-01-24",
+                "value": 79
+            }, {
+                "date": "2020-01-25",
                 "value": 73
             }, {
-                "date": "2019-12-26",
+                "date": "2020-01-26",
                 "value": 75
             }, {
-                "date": "2019-12-27",
+                "date": "2020-01-27",
                 "value": 72
             }]
         });

@@ -13,15 +13,15 @@ $(document).ready(function() {
             "precision": 2,
             "valueAxes": [{
                 "id": "v1",
-                "title": "Visitors",
+                "title": "Spendings",
                 "position": "left",
                 "autoGridCount": false,
                 "labelFunction": function(value) {
-                    return "$" + Math.round(value) + "M";
+                    return Math.round(value) + "M NOK";
                 }
             }, {
                 "id": "v2",
-                "title": "New Visitors",
+                "title": "Ratio",
                 "gridAlpha": 0,
                 "position": "right",
                 "autoGridCount": false
@@ -33,12 +33,12 @@ $(document).ready(function() {
                 "fillColors": "#9BBAFF",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "old Visitor",
+                "title": "Assets",
                 "valueField": "sales2",
                 "clustered": false,
                 "columnWidth": 0.5,
-                "legendValueText": "$[[value]]M",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>$[[value]]M</b>"
+                "legendValueText": "[[value]]M NOK",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
             }, {
                 "id": "g4",
                 "valueAxis": "v1",
@@ -46,12 +46,12 @@ $(document).ready(function() {
                 "fillColors": "#4680ff",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "New visitor",
+                "title": "Liabilities",
                 "valueField": "sales1",
                 "clustered": false,
                 "columnWidth": 0.3,
-                "legendValueText": "$[[value]]M",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>$[[value]]M</b>"
+                "legendValueText": "[[value]]M NOK",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
             }, {
                 "id": "g1",
                 "valueAxis": "v2",
@@ -63,10 +63,11 @@ $(document).ready(function() {
                 "lineThickness": 2,
                 "lineColor": "#93be52",
                 "type": "smoothedLine",
-                "title": "Last Month Visitor",
+                "title": "Net worth",
                 "useLineColorForBulletBorder": true,
                 "valueField": "market1",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]</b>"
+                "legendValueText": "[[value]]M NOK",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
             }, {
                 "id": "g2",
                 "valueAxis": "v2",
@@ -79,9 +80,10 @@ $(document).ready(function() {
                 "lineColor": "#FC6180",
                 // "type": "smoothedLine",
                 "dashLength": 5,
-                "title": "Average Visitor",
+                "title": "Credit Score",
                 "useLineColorForBulletBorder": true,
                 "valueField": "market2",
+                "legendValueText": "[[value]]",
                 "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]</b>"
             }],
             "chartCursor": {
@@ -107,91 +109,91 @@ $(document).ready(function() {
                 "shadowAlpha": 0
             },
             "dataProvider": [{
-                "date": "2013-01-16",
+                "date": "2020-01-16",
                 "market1": 71,
                 "market2": 75,
                 "sales1": 5,
                 "sales2": 8
             }, {
-                "date": "2013-01-17",
+                "date": "2020-01-17",
                 "market1": 74,
                 "market2": 78,
                 "sales1": 4,
                 "sales2": 6
             }, {
-                "date": "2013-01-18",
+                "date": "2020-01-18",
                 "market1": 78,
                 "market2": 88,
                 "sales1": 5,
                 "sales2": 2
             }, {
-                "date": "2013-01-19",
+                "date": "2020-01-19",
                 "market1": 85,
                 "market2": 89,
                 "sales1": 8,
                 "sales2": 9
             }, {
-                "date": "2013-01-20",
+                "date": "2020-01-20",
                 "market1": 82,
                 "market2": 89,
                 "sales1": 9,
                 "sales2": 6
             }, {
-                "date": "2013-01-21",
+                "date": "2020-01-21",
                 "market1": 83,
                 "market2": 85,
                 "sales1": 3,
                 "sales2": 5
             }, {
-                "date": "2013-01-22",
+                "date": "2020-01-22",
                 "market1": 88,
                 "market2": 92,
                 "sales1": 5,
                 "sales2": 7
             }, {
-                "date": "2013-01-23",
+                "date": "2020-01-23",
                 "market1": 85,
                 "market2": 90,
                 "sales1": 7,
                 "sales2": 6
             }, {
-                "date": "2013-01-24",
+                "date": "2020-01-24",
                 "market1": 85,
                 "market2": 91,
                 "sales1": 9,
                 "sales2": 5
             }, {
-                "date": "2013-01-25",
+                "date": "2020-01-25",
                 "market1": 80,
                 "market2": 84,
                 "sales1": 5,
                 "sales2": 8
             }, {
-                "date": "2013-01-26",
+                "date": "2020-01-26",
                 "market1": 87,
                 "market2": 92,
                 "sales1": 4,
                 "sales2": 8
             }, {
-                "date": "2013-01-27",
+                "date": "2020-01-27",
                 "market1": 84,
                 "market2": 87,
                 "sales1": 3,
                 "sales2": 4
             }, {
-                "date": "2013-01-28",
+                "date": "2020-01-28",
                 "market1": 83,
                 "market2": 88,
                 "sales1": 5,
                 "sales2": 7
             }, {
-                "date": "2013-01-29",
+                "date": "2020-01-29",
                 "market1": 84,
                 "market2": 87,
                 "sales1": 5,
                 "sales2": 8
             }, {
-                "date": "2013-01-30",
+                "date": "2020-01-30",
                 "market1": 81,
                 "market2": 85,
                 "sales1": 4,
