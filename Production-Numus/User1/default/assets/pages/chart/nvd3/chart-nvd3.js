@@ -264,7 +264,7 @@ $(document).ready(function() {
             "color": "#FB9678"
         }, {
             "label": "Retirement",
-            "value": 0,
+            "value": 10,
             "color": "#FF9F55"
         }, {
             "label": "Insurance",
@@ -272,20 +272,8 @@ $(document).ready(function() {
             "color": "#01C0C8"
         }, {
             "label": "Taxes",
-            "value": 196.45946739256,
+            "value": 46.45946739256,
             "color": "#00C292"
-        }, {
-            "label": "Housing",
-            "value": 0.19434030906893,
-            "color": "#4F5467"
-        }, {
-            "label": "Transportation",
-            "value": 98.079782601442,
-            "color": "#4F5467"
-        }, {
-            "label": "Food",
-            "value": 13.925743130903,
-            "color": "#000000"
         }, {
             "label": "Utilities",
             "value": 5.1387322875705,
