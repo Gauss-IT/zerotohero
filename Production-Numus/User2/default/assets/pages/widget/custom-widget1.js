@@ -507,7 +507,7 @@ $(document).ready(function() {
         });
         var chartData = [{
             "date": "2012-01-01",
-            "distance": 327,
+            "distance": 427,
             "townName": "New York",
             "townName2": "New York",
             "townSize": 25,
@@ -1163,7 +1163,7 @@ $(document).ready(function() {
         // Email sent Ends
         var chartData = [{
             "date": "2012-01-01",
-            "distance": 327,
+            "distance": 427,
             "townName": "Cell phone",
             "townName2": "Cell phone",
             "townSize": 25,
@@ -1171,28 +1171,28 @@ $(document).ready(function() {
             "duration": 408
         }, {
             "date": "2012-01-02",
-            "distance": 371,
+            "distance": 275,
             "townName": "Washington",
             "townSize": 14,
             "latitude": 38.89,
             "duration": 582
         }, {
             "date": "2012-01-03",
-            "distance": 433,
+            "distance": 322,
             "townName": "Wilmington",
             "townSize": 6,
             "latitude": 34.22,
             "duration": 282
         }, {
             "date": "2012-01-04",
-            "distance": 345,
+            "distance": 455,
             "townName": "Jacksonville",
             "townSize": 7,
             "latitude": 30.35,
             "duration": 379
         }, {
             "date": "2012-01-05",
-            "distance": 480,
+            "distance": 369,
             "townName": "Gas",
             "townName2": "Gas",
             "townSize": 10,
@@ -1200,21 +1200,21 @@ $(document).ready(function() {
             "duration": 501
         }, {
             "date": "2012-01-06",
-            "distance": 386,
+            "distance": 274,
             "townName": "Tallahassee",
             "townSize": 7,
             "latitude": 30.46,
             "duration": 343
         }, {
             "date": "2012-01-07",
-            "distance": 348,
+            "distance": 268,
             "townName": "New Orleans",
             "townSize": 10,
             "latitude": 29.94,
             "duration": 405
         }, {
             "date": "2012-01-08",
-            "distance": 298,
+            "distance": 213,
             "townName": "Groceries",
             "townName2": "Groceries",
             "townSize": 16,
@@ -1222,30 +1222,30 @@ $(document).ready(function() {
             "duration": 309
         }, {
             "date": "2012-01-09",
-            "distance": 318,
+            "distance": 234,
             "townName": "Dalas",
             "townSize": 17,
             "latitude": 32.8,
             "duration": 287
         }, {
             "date": "2012-01-10",
-            "distance": 349,
+            "distance": 251,
             "townName": "Oklahoma City",
             "townSize": 11,
             "latitude": 35.49,
             "duration": 485
         }, {
             "date": "2012-01-11",
-            "distance": 603,
+            "distance": 510,
             "townName": "Kansas City",
             "townSize": 10,
             "latitude": 39.1,
             "duration": 390
         }, {
             "date": "2012-01-12",
-            "distance": 534,
-            "townName": "Health Insurance",
-            "townName2": "Health Insurance",
+            "distance": 466,
+            "townName": "Rent",
+            "townName2": "Rent",
             "townSize": 18,
             "latitude": 39.74,
             "duration": 450
@@ -1253,18 +1253,11 @@ $(document).ready(function() {
             "date": "2012-01-13",
             "townName": "Salt Lake City",
             "townSize": 12,
-            "distance": 425,
+            "distance": 327,
             "duration": 270,
             "latitude": 40.75,
             "alpha": 0.4
-        }, {
-            "date": "2012-01-14",
-            "latitude": 36.1,
-            "duration": 460,
-            "townName": "Rent",
-            "townName2": "Rent",
-            "bulletClass": "lastBullet"
-        }];
+        }, ];
         var chart = AmCharts.makeChart("monthly-graph", {
             "type": "serial",
             "theme": "light",
@@ -1386,7 +1379,7 @@ $(document).ready(function() {
             "marginRight": 0,
             "dataProvider": [{
                 "year": "Jan",
-                "value": 0.98
+                "value": 0.99
             }, {
                 "year": "Feb",
                 "value": 1.87

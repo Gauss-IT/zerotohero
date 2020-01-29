@@ -110,93 +110,93 @@ $(document).ready(function() {
             },
             "dataProvider": [{
                 "date": "2020-01-16",
-                "market1": 71,
-                "market2": 75,
-                "sales1": 5,
-                "sales2": 8
-            }, {
-                "date": "2020-01-17",
-                "market1": 74,
-                "market2": 78,
-                "sales1": 4,
+                "market1": 67,
+                "market2": 72,
+                "sales1": 3,
                 "sales2": 6
             }, {
+                "date": "2020-01-17",
+                "market1": 64,
+                "market2": 68,
+                "sales1": 7,
+                "sales2": 5
+            }, {
                 "date": "2020-01-18",
-                "market1": 78,
-                "market2": 88,
-                "sales1": 5,
-                "sales2": 2
+                "market1": 67,
+                "market2": 78,
+                "sales1": 6,
+                "sales2": 4
             }, {
                 "date": "2020-01-19",
-                "market1": 85,
-                "market2": 89,
-                "sales1": 8,
+                "market1": 81,
+                "market2": 84,
+                "sales1": 7,
                 "sales2": 9
             }, {
                 "date": "2020-01-20",
-                "market1": 82,
-                "market2": 89,
-                "sales1": 9,
-                "sales2": 6
+                "market1": 75,
+                "market2": 92,
+                "sales1": 5,
+                "sales2": 9
             }, {
                 "date": "2020-01-21",
-                "market1": 83,
+                "market1": 87,
+                "market2": 89,
+                "sales1": 4,
+                "sales2": 6
+            }, {
+                "date": "2020-01-22",
+                "market1": 81,
                 "market2": 85,
                 "sales1": 3,
                 "sales2": 5
             }, {
-                "date": "2020-01-22",
-                "market1": 88,
-                "market2": 92,
-                "sales1": 5,
+                "date": "2020-01-23",
+                "market1": 80,
+                "market2": 84,
+                "sales1": 8,
                 "sales2": 7
             }, {
-                "date": "2020-01-23",
-                "market1": 85,
-                "market2": 90,
-                "sales1": 7,
-                "sales2": 6
-            }, {
                 "date": "2020-01-24",
-                "market1": 85,
-                "market2": 91,
-                "sales1": 9,
+                "market1": 80,
+                "market2": 84,
+                "sales1": 7,
                 "sales2": 5
             }, {
                 "date": "2020-01-25",
-                "market1": 80,
-                "market2": 84,
-                "sales1": 5,
-                "sales2": 8
+                "market1": 85,
+                "market2": 88,
+                "sales1": 4,
+                "sales2": 6
             }, {
                 "date": "2020-01-26",
-                "market1": 87,
-                "market2": 92,
-                "sales1": 4,
+                "market1": 82,
+                "market2": 90,
+                "sales1": 9,
                 "sales2": 8
             }, {
                 "date": "2020-01-27",
-                "market1": 84,
-                "market2": 87,
-                "sales1": 3,
-                "sales2": 4
-            }, {
-                "date": "2020-01-28",
-                "market1": 83,
-                "market2": 88,
+                "market1": 82,
+                "market2": 80,
                 "sales1": 5,
                 "sales2": 7
             }, {
-                "date": "2020-01-29",
-                "market1": 84,
-                "market2": 87,
-                "sales1": 5,
+                "date": "2020-01-28",
+                "market1": 76,
+                "market2": 79,
+                "sales1": 6,
                 "sales2": 8
             }, {
-                "date": "2020-01-30",
+                "date": "2020-01-29",
                 "market1": 81,
                 "market2": 85,
-                "sales1": 4,
+                "sales1": 6,
+                "sales2": 9
+            }, {
+                "date": "2020-01-30",
+                "market1": 79,
+                "market2": 84,
+                "sales1": 3,
                 "sales2": 7
             }]
         });
