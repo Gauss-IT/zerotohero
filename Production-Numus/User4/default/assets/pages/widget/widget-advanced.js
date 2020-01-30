@@ -763,31 +763,31 @@ $(document).ready(function() {
             },
             "dataProvider": [{
                 "date": "2020-01-19",
-                "value": 79
+                "value": 91
             }, {
                 "date": "2020-01-20",
-                "value": 83
+                "value": 64
             }, {
                 "date": "2020-01-21",
-                "value": 85
+                "value": 59
             }, {
                 "date": "2020-01-22",
-                "value": 81
+                "value": 62
             }, {
                 "date": "2020-01-23",
-                "value": 82
+                "value": 63
             }, {
                 "date": "2020-01-24",
-                "value": 79
+                "value": 87
             }, {
                 "date": "2020-01-25",
-                "value": 73
+                "value": 67
             }, {
                 "date": "2020-01-26",
-                "value": 75
+                "value": 81
             }, {
                 "date": "2020-01-27",
-                "value": 72
+                "value": 69
             }]
         });
     };
