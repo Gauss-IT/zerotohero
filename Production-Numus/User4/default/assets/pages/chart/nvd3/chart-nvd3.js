@@ -260,23 +260,23 @@ $(document).ready(function() {
     function pieData() {
         return [{
             "label": "Savings",
-            "value": 29.765957771107,
+            "value": 28.127957771107,
             "color": "#FB9678"
         }, {
             "label": "Retirement",
-            "value": 40,
+            "value": 31,
             "color": "#FF9F55"
         }, {
             "label": "Insurance",
-            "value": 32.807804682612,
+            "value": 64.437804682612,
             "color": "#01C0C8"
         }, {
             "label": "Taxes",
-            "value": 55.45946739256,
+            "value": 48.37546739256,
             "color": "#00C292"
         }, {
             "label": "Utilities",
-            "value": 5.1387322875705,
+            "value": 4.7367322875705,
             "color": "#CB2027"
         }];
     }

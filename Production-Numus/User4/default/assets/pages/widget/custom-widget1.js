@@ -1163,19 +1163,19 @@ $(document).ready(function() {
         // Email sent Ends
         var chartData = [{
             "date": "2012-01-01",
-            "distance": 327,
+            "distance": 295,
             "townName": "Cell phone",
             "townName2": "Cell phone",
             "townSize": 25,
-            "latitude": 40.71,
-            "duration": 408
+            "latitude": 34.28,
+            "duration": 388
         }, {
             "date": "2012-01-02",
-            "distance": 371,
+            "distance": 399,
             "townName": "Washington",
             "townSize": 14,
-            "latitude": 38.89,
-            "duration": 582
+            "latitude": 29.54,
+            "duration": 501
         }, {
             "date": "2012-01-03",
             "distance": 433,
@@ -1196,8 +1196,8 @@ $(document).ready(function() {
             "townName": "Gas",
             "townName2": "Gas",
             "townSize": 10,
-            "latitude": 25.83,
-            "duration": 501
+            "latitude": 23.71,
+            "duration": 465
         }, {
             "date": "2012-01-06",
             "distance": 386,
@@ -1214,12 +1214,12 @@ $(document).ready(function() {
             "duration": 405
         }, {
             "date": "2012-01-08",
-            "distance": 298,
+            "distance": 320,
             "townName": "Groceries",
             "townName2": "Groceries",
             "townSize": 16,
-            "latitude": 29.76,
-            "duration": 309
+            "latitude": 27.21,
+            "duration": 318
         }, {
             "date": "2012-01-09",
             "distance": 318,
@@ -1236,7 +1236,7 @@ $(document).ready(function() {
             "duration": 485
         }, {
             "date": "2012-01-11",
-            "distance": 603,
+            "distance": 466,
             "townName": "Kansas City",
             "townSize": 10,
             "latitude": 39.1,
@@ -1253,12 +1253,13 @@ $(document).ready(function() {
             "date": "2012-01-13",
             "townName": "Salt Lake City",
             "townSize": 12,
-            "distance": 425,
-            "duration": 270,
-            "latitude": 40.75,
+            "distance": 435,
+            "duration": 280,
+            "latitude": 41.75,
             "alpha": 0.4
         }, {
             "date": "2012-01-14",
+            "distance": 471,
             "latitude": 36.1,
             "duration": 460,
             "townName": "Rent",
