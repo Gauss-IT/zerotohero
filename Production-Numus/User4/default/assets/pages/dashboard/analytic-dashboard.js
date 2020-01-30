@@ -110,50 +110,50 @@ $(document).ready(function() {
             },
             "dataProvider": [{
                 "date": "2020-01-16",
-                "market1": 71,
-                "market2": 75,
-                "sales1": 5,
-                "sales2": 8
+                "market1": 63,
+                "market2": 71,
+                "sales1": 6,
+                "sales2": 7
             }, {
                 "date": "2020-01-17",
-                "market1": 74,
-                "market2": 78,
+                "market1": 69,
+                "market2": 74,
                 "sales1": 4,
                 "sales2": 6
             }, {
                 "date": "2020-01-18",
-                "market1": 78,
-                "market2": 88,
+                "market1": 77,
+                "market2": 84,
                 "sales1": 5,
-                "sales2": 2
+                "sales2": 3
             }, {
                 "date": "2020-01-19",
-                "market1": 85,
-                "market2": 89,
-                "sales1": 8,
-                "sales2": 9
+                "market1": 82,
+                "market2": 87,
+                "sales1": 7,
+                "sales2": 8
             }, {
                 "date": "2020-01-20",
-                "market1": 82,
-                "market2": 89,
-                "sales1": 9,
-                "sales2": 6
+                "market1": 79,
+                "market2": 86,
+                "sales1": 8,
+                "sales2": 5
             }, {
                 "date": "2020-01-21",
-                "market1": 83,
-                "market2": 85,
+                "market1": 81,
+                "market2": 82,
                 "sales1": 3,
                 "sales2": 5
             }, {
                 "date": "2020-01-22",
-                "market1": 88,
-                "market2": 92,
+                "market1": 85,
+                "market2": 91,
                 "sales1": 5,
                 "sales2": 7
             }, {
                 "date": "2020-01-23",
-                "market1": 85,
-                "market2": 90,
+                "market1": 83,
+                "market2": 89,
                 "sales1": 7,
                 "sales2": 6
             }, {
