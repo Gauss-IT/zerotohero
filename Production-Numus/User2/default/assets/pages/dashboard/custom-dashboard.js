@@ -35,7 +35,7 @@ $(document).ready(function() {
                 "year": "Aug",
                 "value": 1.33
             }, {
-                "year": "Sap",
+                "year": "Sep",
                 "value": 2.1
             }],
             "valueAxes": [{
