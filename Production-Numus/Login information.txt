@@ -1,0 +1,14 @@
+Administrator
+Username:Admin Password:Admin123
+
+Anja Andersen
+Username:Anja Password:Anja123
+
+Markus Henriksen
+Username:Markus Password:Markus123
+
+Bjorn Gabrielsen
+Username:Bjorn Password:Bjorn123
+
+Martin Johansen
+Username:Martin Password:Martin123
