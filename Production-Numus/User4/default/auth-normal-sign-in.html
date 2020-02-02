@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="#">
-    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Mobile, iOS, Android, apple, creative app">
     <meta name="author" content="#">
     <!-- Favicon icon -->
 
@@ -29,7 +29,7 @@
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-
+    <script src="../../UserAdmin/default/assets/js/login.js"></script>
 </head>
 
 <body class="fix-menu">
@@ -71,11 +71,12 @@
                                 </div>
                                 <hr/>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Your Email Address">
+                                    <input type="username" class="form-control" placeholder="Your Email Address" name="username" id="username">
                                     <span class="md-line"></span>
                                 </div>
                                 <div class="input-group">
-                                    <input type="password" class="form-control" placeholder="Password">
+                                    <input type="password" class="form-control" placeholder="Password" id="password" name="password">
+                                    
                                     <span class="md-line"></span>
                                 </div>
                                 <div class="row m-t-25 text-left">
@@ -94,14 +95,15 @@
                                 </div>
                                 <div class="row m-t-30">
                                     <div class="col-md-12">
-                                        <button type="button" class="btn btn-info btn-md btn-block waves-effect text-center m-b-20">Sign in</button>
+                                        
+                                        <input type="button" class="btn btn-info btn-md btn-block waves-effect text-center m-b-20" value="Sign In" id="submit" onclick="validate()"/>
                                     </div>
                                 </div>
                                 <hr/>
                                 <div class="row">
                                     <div class="col-md-8">
                                         <p class="text-inverse text-left m-b-0">Thank you for using our services.</p>
-                                        <p class="text-inverse text-left"><b>numus Team</b></p>
+                                        <p class="text-inverse text-left"><b>Numus Team</b></p>
                                     </div>
                                     <div class="col-md-4">
                                         <img src="assets/images/numus-logo.svg" alt="small-logo.png" style="width:100%;">
@@ -180,6 +182,7 @@
     <script type="text/javascript" src="../bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
     <script type="text/javascript" src="../bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
     <script type="text/javascript" src="assets/js/common-pages.js"></script>
+    
 </body>
 
 </html>
