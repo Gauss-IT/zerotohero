@@ -7569,6 +7569,7 @@ table tbody .border-bottom-info td {
 @media only screen and (max-width: 992px) {
   .header-navbar .navbar-wrapper .navbar-logo {
     justify-content: center;
+    padding: 0px;
   }
 }
 .header-navbar .navbar-wrapper .navbar-logo h5 {
