@@ -220,7 +220,7 @@ $('#styleSelector').append('' +
     '</div>' +
     '<ul>' +
         '<li>' +
-            '<p class="selector-title main-title st-main-title"><b>Guru </b>able Customizer</p>' +
+            '<p class="selector-title main-title st-main-title"><b>numus </b>able Customizer</p>' +
             '<span class="text-muted">Live customizer with tons of options</span>'+
         '</li>' +
         '<li>' +
@@ -420,10 +420,7 @@ $('#styleSelector').append('' +
     '</div>' +
 '</div>' +
 '<ul>'+
-    '<li>' +
-        '<a href="https://codedthemes.com/item/guru-able-free-admin-template/" target="_blank" class="btn btn-success btn-block m-r-15 m-t-10 m-b-10">Free ! Download Lite Version</a>' +
-        '<a href="http://html.codedthemes.com/guru-able/doc" target="_blank" class="btn btn-primary btn-block m-r-15 m-t-5 m-b-10">Online Documentation</a>' +
-    '</li>' +
+    
     '<li class="text-center">' +
         '<span class="text-center f-18 m-t-15 m-b-15 d-block">Thank you for sharing !</span>' +
         '<a href="https://www.facebook.com/codedthemes" target="_blank" class="btn btn-facebook soc-icon m-b-20"><i class="icofont icofont-social-facebook"></i></a>' +
