@@ -13,7 +13,7 @@ $(document).ready(function() {
             "precision": 2,
             "valueAxes": [{
                 "id": "v1",
-                "title": "Spendings",
+                "title": "Income Comparison",
                 "position": "left",
                 "autoGridCount": false,
                 "labelFunction": function(value) {
@@ -33,7 +33,7 @@ $(document).ready(function() {
                 "fillColors": "#9BBAFF",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Assets",
+                "title": "My Income",
                 "valueField": "sales2",
                 "clustered": false,
                 "columnWidth": 0.5,
@@ -46,7 +46,7 @@ $(document).ready(function() {
                 "fillColors": "#4680ff",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Liabilities",
+                "title": "Ola's Income",
                 "valueField": "sales1",
                 "clustered": false,
                 "columnWidth": 0.3,
