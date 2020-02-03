@@ -1,14 +1,19 @@
 Administrator
-Username:Admin Password:Admin123
+Username:admin
+Password:admin123
 
 Anja Andersen
-Username:Anja Password:Anja123
+Username:anja
+Password:anja123
 
 Markus Henriksen
-Username:Markus Password:Markus123
+Username:markus
+Password:markus123
 
 Bjorn Gabrielsen
-Username:Bjorn Password:Bjorn123
+Username:bjorn
+Password:bjorn123
 
 Martin Johansen
-Username:Martin Password:Martin123
+Username:martin
+Password:martin123

@@ -5,32 +5,27 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "admin" && password == "admin123"){
-alert ("Login successfully");
 window.location = "index.html"; // Redirecting to other page.
 return false;
-} else if (username == "anja" && password == "anja123") {
-  alert ("Login successfully");
+} else if (username == "anja" && password == "anja123") {  
 window.location = "../../user1/default/index.html"; // Redirecting to other page.
 return false;
 }
   else if (username == "markus" && password == "markus123") {
-  alert ("Login successfully");
 window.location = "../../user2/default/index.html"; // Redirecting to other page.
 return false;
 }
 else if (username == "bjorn" && password == "bjorn123") {
-  alert ("Login successfully");
 window.location = "../../user3/default/index.html"; // Redirecting to other page.
 return false;
 }
 else if (username == "martin" && password == "martin123") {
-  alert ("Login successfully");
 window.location = "../../user4/default/index.html"; // Redirecting to other page.
 return false;
 }
 else{
 attempt --;// Decrementing by one.
-alert("You have left "+attempt+" attempt;");
+alert("You have"+attempt+" attempts left;");
 // Disabling fields after 3 attempts.
 if( attempt == 0){
 document.getElementById("username").disabled = true;
