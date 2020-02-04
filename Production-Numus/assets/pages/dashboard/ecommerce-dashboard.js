@@ -146,8 +146,8 @@ $(document).ready(function() {
                 "valueField": "sales2",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "[[value]]M NOK",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
+                "legendValueText": "[[value]]M EUR",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
             }, {
                 "id": "g4",
                 "valueAxis": "v1",
@@ -159,8 +159,8 @@ $(document).ready(function() {
                 "valueField": "sales1",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "[[value]]M NOK",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
+                "legendValueText": "[[value]]M EUR",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
             }, {
                 "id": "g1",
                 "valueAxis": "v2",
@@ -188,8 +188,8 @@ $(document).ready(function() {
                 "valueField": "sales2",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "[[value]]M NOK",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
+                "legendValueText": "[[value]]M EUR",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
             }],
             "chartCursor": {
                 "pan": true,

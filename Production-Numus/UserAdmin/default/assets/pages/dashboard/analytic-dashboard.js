@@ -17,7 +17,7 @@ $(document).ready(function() {
                 "position": "left",
                 "autoGridCount": false,
                 "labelFunction": function(value) {
-                    return Math.round(value) + "M NOK";
+                    return Math.round(value) + "M EUR";
                 }
             }, {
                 "id": "v2",
@@ -37,8 +37,8 @@ $(document).ready(function() {
                 "valueField": "sales2",
                 "clustered": false,
                 "columnWidth": 0.5,
-                "legendValueText": "[[value]]M NOK",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
+                "legendValueText": "[[value]]M EUR",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
             }, {
                 "id": "g4",
                 "valueAxis": "v1",
@@ -50,8 +50,8 @@ $(document).ready(function() {
                 "valueField": "sales1",
                 "clustered": false,
                 "columnWidth": 0.3,
-                "legendValueText": "[[value]]M NOK",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
+                "legendValueText": "[[value]]M EUR",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
             }, {
                 "id": "g1",
                 "valueAxis": "v2",
@@ -66,8 +66,8 @@ $(document).ready(function() {
                 "title": "Net worth",
                 "useLineColorForBulletBorder": true,
                 "valueField": "market1",
-                "legendValueText": "[[value]]M NOK",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M NOK</b>"
+                "legendValueText": "[[value]]M EUR",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
             }, {
                 "id": "g2",
                 "valueAxis": "v2",

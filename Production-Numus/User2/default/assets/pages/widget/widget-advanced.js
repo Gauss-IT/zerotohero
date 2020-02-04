@@ -736,7 +736,7 @@ $(document).ready(function() {
                 "title": "red line",
                 "useLineColorForBulletBorder": true,
                 "valueField": "value",
-                "balloonText": "<span style='font-size:18px;'>[[value]]NOK</span>"
+                "balloonText": "<span style='font-size:18px;'>[[value]]EUR</span>"
             }],
             "chartCursor": {
                 "valueLineEnabled": false,
