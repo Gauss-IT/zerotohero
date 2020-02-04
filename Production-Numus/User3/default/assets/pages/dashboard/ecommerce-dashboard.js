@@ -120,7 +120,7 @@ $(document).ready(function() {
             "precision": 2,
             "valueAxes": [{
                 "id": "v1",
-                "title": "Sales",
+                "title": "",
                 "position": "left",
                 "autoGridCount": false,
                 "labelFunction": function(value) {
