@@ -29,7 +29,7 @@
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <script src="assets/js/login.js"></script>
+    
 </head>
 
 <body class="fix-menu">
@@ -75,7 +75,7 @@
                                     <span class="md-line"></span>
                                 </div>
                                 <div class="input-group">
-                                    <input type="password" class="form-control" placeholder="Password" id="password" name="password">
+                                    <input type="password" class="form-control" placeholder="Password" id="passwordField" name="password">
                                     
                                     <span class="md-line"></span>
                                 </div>
@@ -167,6 +167,10 @@
 <![endif]-->
     <!-- Warning Section Ends -->
     <!-- Required Jquery -->
+    <script type="text/javascript" src="assets/js/login.js" >// Below function Executes on click of login button.
+        window.onload = function() {bindKeyEvents();};
+        
+    </script>
     <script type="text/javascript" src="../bower_components/jquery/js/jquery.min.js"></script>
     <script type="text/javascript" src="../bower_components/jquery-ui/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="../bower_components/popper.js/js/popper.min.js"></script>
