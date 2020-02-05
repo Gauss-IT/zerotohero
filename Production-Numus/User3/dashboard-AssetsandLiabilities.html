@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 
 <head>
-    <title>Income and Expenses - Numus</title>
+    <title>Assets and Liabilities - Numus</title>
     <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 10]>
@@ -11,62 +11,55 @@
       <![endif]-->
     <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="#">
     <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
     <meta name="author" content="#">
     <!-- Favicon icon -->
     <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
-
     <!-- Required Fremwork -->
     <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/css/bootstrap.min.css">
-    <!-- themify icon -->
+    <!-- themify-icons line icon -->
     <link rel="stylesheet" type="text/css" href="../assets/icon/themify-icons/themify-icons.css">
     <!-- ico font -->
     <link rel="stylesheet" type="text/css" href="../assets/icon/icofont/css/icofont.css">
-    <!-- flag icon framework css -->
-    <link rel="stylesheet" type="text/css" href="../assets/pages/flag-icon/flag-icon.min.css">
-    <!--SVG Icons Animated-->
-    <link rel="stylesheet" type="text/css" href="../assets/icon/SVG-animated/svg-weather.css">
-    <!-- Menu-Search css -->
-    <link rel="stylesheet" type="text/css" href="../assets/pages/menu-search/css/component.css">
-    <!-- Horizontal-Timeline css -->
-    <link rel="stylesheet" type="text/css" href="../assets/pages/dashboard/horizontal-timeline/css/style.css">
-    <!-- amchart css -->
-    <link rel="stylesheet" type="text/css" href="../assets/pages/dashboard/amchart/css/amchart.css">
+    <!-- C3 chart -->
+    <link rel="stylesheet" href="../bower_components/c3/css/c3.css" type="text/css" media="all">
     <!-- Calender css -->
     <link rel="stylesheet" type="text/css" href="../assets/pages/widget/calender/pignose.calendar.min.css">
     <!-- flag icon framework css -->
     <link rel="stylesheet" type="text/css" href="../assets/pages/flag-icon/flag-icon.min.css">
+    <!-- Menu-Search css -->
+    <link rel="stylesheet" type="text/css" href="../assets/pages/menu-search/css/component.css">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mCustomScrollbar.css">
-
 </head>
+<!-- Menu sidebar static layout -->
 
 <body>
     <!-- Pre-loader start -->
     <div class="theme-loader">
-        <div class="ball-scale">
-            <div class='contain'>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-                <div class="ring"><div class="frame"></div></div>
-            </div>
+    <div class="ball-scale">
+        <div class='contain'>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
+            <div class="ring"><div class="frame"></div></div>
         </div>
     </div>
+</div>
     <!-- Pre-loader end -->
-    <!-- Menu header start -->
     <div id="pcoded" class="pcoded">
         <div class="pcoded-overlay-box"></div>
         <div class="pcoded-container navbar-wrapper">
@@ -102,14 +95,14 @@
                                     <li class="user-profile header-notification">
                                         <a href="http://gaussit.co/ElaAnalytics/NumusLanding/" target="_blank">
                                 <img src="../assets/images/numus-logo.svg"class="img-radius" alt="User-Profile-Image">  
-                           </a>
+                            </a>
                             </li>    
                             </ul> -->
                         <ul class="nav-right">
                            
                             <li class="user-profile header-notification">
                                 <a href="#!">
-                                        <img src="images/user.jpg" class="img-radius" alt="User-Profile-Image">
+                                        <img src="../assets/images/user.jpg" class="img-radius" alt="User-Profile-Image">
                                         <span>Martin Johansen</span>
                                         <i class="ti-angle-down"></i>
                                     </a>
@@ -147,7 +140,7 @@
                         <div class="pcoded-inner-navbar main-menu">
                             <div class="">
                                 <div class="main-menu-header">
-                                    <img class="img-40 img-radius" src="images/user.jpg" alt="User-Profile-Image">
+                                    <img class="img-40 img-radius" src="../assets/images/user.jpg" alt="User-Profile-Image">
                                     <div class="user-details">
                                         <span>Martin Johansen</span>
                                         <span id="more-details">Software Developer<i class="ti-angle-down"></i></span>
@@ -173,14 +166,14 @@
                                                 <span class="pcoded-mcaret"></span>
                                             </a>
                                         </li>
-                                        <li class="active">
+                                        <li class="">
                                             <a href="dashboard-expenses.html">
                                                 <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="pcoded-mtext" data-i18n="nav.dash.ecommerce">Income and Expenses</span>
                                                 <span class="pcoded-mcaret"></span>
                                             </a>
                                         </li>
-                                        <li class="">
+                                        <li class="active">
                                             <a href="dashboard-AssetsandLiabilities.html">
                                                 <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="pcoded-mtext" data-i18n="nav.dash.crm">Assets and Liabilities</span>
@@ -232,138 +225,174 @@
                             <div class="main-body">
                                 <div class="page-wrapper">
                                     <div class="page-body">
+
+                                            <div class="row">
+                                                    <!-- OVERLOADED 'DRAW' METHOD start -->
+                                                    <div class="col-lg-6 col-xl-4">
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h5>Assets</h5>
+                                                                <span>Choose the percentage of your assets</span>
+                                                                <div class="card-header-right">                                                             <i class="icofont icofont-spinner-alt-5"></i>                                                         </div>
+                                                            </div>
+                                                            <div class="card-block text-center">
+                                                                <input type="text" class="dial" value="35" data-width="200" data-height="200" data-fgColor="#1abc9c" data-skin="tron" data-thickness=".1" data-angleOffset="180">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- OVERLOADED 'DRAW' METHOD Ends -->
+                                                    <!-- ANGLE OFFSET AND ARC start -->
+                                                    <div class="col-lg-6 col-xl-4">
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h5>Liabilities</h5>
+                                                                <span>Choose the percentage of your liabilities</span>
+                                                                <div class="card-header-right">                                                             <i class="icofont icofont-spinner-alt-5"></i>                                                         </div>
+                                                            </div>
+                                                            <div class="card-block text-center">
+                                                                <input type="text" class="dial" value="24" data-width="200" data-height="200" data-fgColor="#FF9F55" data-angleOffset="-125" data-angleArc="250" data-rotation="anticlockwise">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- ANGLE OFFSET AND ARC Ends -->
+                                                    <!-- 'CURSOR' MODE start -->
+                                                    <div class="col-lg-6 col-xl-4">
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h5>Net Worth</h5>
+                                                                <span>Choose the percentage of your net worth</span>
+                                                                <div class="card-header-right">                                                             <i class="icofont icofont-spinner-alt-5"></i>                                                         </div>
+                                                            </div>
+                                                            <div class="card-block text-center">
+                                                                <input type="text" class="dial" value="70" data-width="200" data-height="200" data-cursor="true" data-thickness=".1" data-fgColor="#9b59b6">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- 'CURSOR' MODE start Ends -->
+                                                    <!-- DISABLE DISPLAY INPUT start -->
+                                                    
+                                                    <!-- DISABLE DISPLAY INPUT Ends -->
+                                                    <!-- DISPLAY PREVIOUS VALUE Starts -->
+                                                    
+                                                    <!-- DISPLAY PREVIOUS VALUE Starts -->
+                                                    <!-- DISPLAY READ ONLY Starts -->
+                                                    
+                                                    <!-- DISPLAY PREVIOUS VALUE Starts -->
+                                                </div>
+                                        <!-- Statistics and revenue Start -->
+                                        <div class="card-block col-md-12 col-xl-12">
+                                                <h6 class="text-muted f-18 ">Financial Independence Number</h6>
+                                                <h4 class="f-w-600 ">129,044.6 EUR</h4>
+
+                                                <div class="m-b-30 m-t-30">
+                                                    <div id="statetics-graph1" style="height: 350px"></div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col">
+                                                        <i class="icofont icofont-gift-box f-40 text-c-blue icon-stat"></i>
+                                                        <div class="d-inline-block ">
+                                                            <p class="text-muted m-l-20 m-b-5 f-w-600 ">Yearly spending</p>
+                                                            <h5 class=" m-l-20 m-b-0 f-w-600 ">6,452.23 EUR</h5>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col d-inline-block">
+                                                        <div id="statetics-purchase1" style="height: 80px"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <i class="icofont icofont-wallet f-40 text-c-green icon-stat"></i>
+                                                        <div class="d-inline-block ">
+                                                            <p class="text-muted m-l-20 m-b-5 f-w-600 ">Safe withdrawal rate</p>
+                                                            <h5 class=" m-l-20 m-b-0 f-w-600 ">5 % </h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col d-inline-block">
+                                                        <div id="statetics-rate1" style="height: 80px"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Statistics and revenue End -->
                                         <div class="row">
-                                            <div class="col-md-6 col-xl-4">
-                                                <div class="card amount-card o-hidden">
-                                                    <div class="card-block">
-                                                        <h2 class="f-w-400">18,712 EUR</h2>
-                                                        <p class="text-muted f-w-600 f-16"><span
-                                                                class="text-c-blue">Income</span></p>
-                                                    </div>
-                                                    <canvas id="amount-processed" height="100"></canvas>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-xl-4">
-                                                <div class="card amount-card o-hidden">
-                                                    <div class="card-block">
-                                                        <h2 class="f-w-400">10,003 EUR</h2>
-                                                        <p class="text-muted f-w-600 f-16"><span class="text-c-pink">Cost of living</span></p>
-                                                    </div>
-                                                    <canvas id="amount-spent" height="100"></canvas>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12 col-xl-4">
-                                                <div class="card amount-card o-hidden">
-                                                    <div class="card-block">
-                                                        <h2 class="f-w-400">7,647 EUR</h2>
-                                                        <p class="text-muted f-w-600 f-16"><span class="text-c-yellow">Net Income</span>
-                                                        </p>
-                                                    </div>
-                                                    <canvas id="profit-processed" height="100"></canvas>
-                                                </div>
-                                            </div>
+                                            
 
                                             <!-- Email Sent Start -->
-                                            <div class="col-md-12 col-xl-12">
-                                                <div class="card email-sent-card">
-                                                    <div class="card-header ">
-                                                        <div class="card-header-left ">
-                                                            <h5>Me vs Ola Nordmann</h5>
-                                                        </div>
-                                                        <div class="card-header-right">
-                                                            <ul class="list-unstyled card-option">
-                                                                <li><i class="icofont icofont-simple-left "></i></li>
-                                                                <li><i class="icofont icofont-maximize full-card"></i></li>
-                                                                <li><i class="icofont icofont-minus minimize-card"></i></li>
-                                                                <li><i class="icofont icofont-refresh reload-card"></i></li>
-                                                                <li><i class="icofont icofont-error close-card"></i></li>
-                                                            </ul>
-                                                        </div>
+                                            <div class="col-md-12 col-xl-6">
+                                            <div class="card">
+                                                <div class="card-header bg-secondary">
+                                                    <div class="card-header-left">
+                                                        <h5>Savings rate in absolute amount(EUR) and % of Income</h5>
                                                     </div>
-                                                    <div class="card-block">
-                                                        <div id="email-sent" style="max-width:100%;height:400px;"></div>
+                                                    <div class="card-header-right">
+                                                        <ul class="list-unstyled card-option">
+                                                            <li><i class="icofont icofont-simple-left "></i></li>
+                                                            <li><i class="icofont icofont-maximize full-card"></i></li>
+                                                            <li><i class="icofont icofont-minus minimize-card"></i></li>
+                                                            <li><i class="icofont icofont-refresh reload-card"></i></li>
+                                                            <li><i class="icofont icofont-error close-card"></i></li>
+                                                        </ul>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <!-- Email Sent End -->
-
-                                            <!-- Reviews Start -->
-                                            
-                                            <!-- Reviews End -->
-
-                                            <!-- Balance Start -->
-                                           
-                                           
-                                            <!-- Balance End -->
-
-                                            <!-- Marketing Start -->
-                                            
-                                            <!-- Marketing End -->
-                                            <div class="col-sm-12">
-                                                    <div class="card">
-                                                        <div class="card-header">
-                                                            <div class="card-header-left">
-                                                                <h5>&nbsp&nbsp&nbspAccumulated Wealth</h5>
-                                                            </div>
-                                                            <div class="card-header-right">
-                                                                <ul class="list-unstyled card-option">
-                                                                    <li><i class="icofont icofont-simple-left "></i>
-                                                                    </li>
-                                                                    <li>
-                                                                        <i class="icofont icofont-maximize full-card"></i>
-                                                                    </li>
-                                                                    <li>
-                                                                        <i class="icofont icofont-minus minimize-card"></i>
-                                                                    </li>
-                                                                    <li>
-                                                                        <i class="icofont icofont-refresh reload-card"></i>
-                                                                    </li>
-                                                                    <li><i class="icofont icofont-error close-card"></i>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-block p-0">
-                                                            <div class="card-block-big revenue-report">
-                                                                <div class="row">
-                                                                    <div class="col-lg-3">
-                                                                        <h3 class="f-w-400">11,464 EUR</h3>
-                                                                    </div>
-                                                                    <div class="col-lg-3">
-                                                                        <canvas id="revenue-report" height="150"></canvas>
-                                                                    </div>
-                                                                    <div class="col-lg-4">
-                                                                        <div class="revenue-card p-b-10">
-                                                                            <span class="bg-c-blue"></span>
-                                                                            <h6 class="text-muted d-inline-block m-l-20">
-                                                                                Previous year</h6>
-                                                                            <h6 class="d-inline-block m-l-20 f-w-600">
-                                                                                47,812 EUR</h6>
-                                                                        </div>
-                                                                        <div class="revenue-card b-t-default  p-t-10">
-                                                                            <span class="bg-c-green m-t-10"></span>
-                                                                            <h6 class="text-muted d-inline-block m-l-20">
-                                                                                This year</h6>
-                                                                            <h6 class="d-inline-block m-l-20 f-w-600">
-                                                                                36,348 EUR</h6>
-                                                                        </div>
-                                                                    </div>
+                                                <div class="card">
+                                                    <div class="monthly-earning">
+                                                        <canvas id="monthly-earning" height="300"></canvas>
+                                                        <div class="monthly-data">
+                                                            <div class="row">
+                                                                <div class="col-sm-5 earn">
+                                                                    <h5>Savings rate</h5>
+                                                                    <h3 class="f-w-400 m-t-10">56,369 EUR</h3>
+                                                                </div>
+                                                                <div class="col-sm-7 spent">
+                                                                    <h5>Savings rate</h5>
+                                                                    <h3 class="f-w-400 m-t-10">8 %</h3>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            <!-- map & Chart Start -->
-                                            <div class="col-md-12 col-xl-7">
-                                                <div class="row">
-                                                    
-                                                   
-                                                    
+                                            </div>
+                                        </div>
+                                        <!-- Monthly Chart Start -->
+                                        <!-- Sentiment SVG Start -->
+                                        <div class="col-md-12 col-xl-6 ">
+                                                <div class="card bg-c-pink week-sales-card ">
+                                                    <div class="card-header ">
+                                                        <div class="card-header-left ">
+                                                            <h5>Last week spendings</h5>
+                                                        </div>
+                                                        <div class="card-header-right">
+                                                            <i class="icofont icofont-spinner-alt-5"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div id="last-week-sales" class="last-week-sales"></div>
                                                 </div>
                                             </div>
-                                            
-                                            <!-- map & Chart End -->
+                                            <!-- Email Sent End -->
 
+                                            <!-- Monthly Chart Start -->
+                                           
+                                            <!-- Monthly Chart Start -->
+
+                                            <!-- Status Revenue Start -->
+                                          
+                                            <!-- Status Revenue End -->
+
+                                            <!-- Balance Start -->
+                                            
+                                            
+                                            
+                                            <!-- Balance End -->
+
+                                            <!-- card1 start -->
+                                          
+                                            <!-- card1 end -->
+
+                                            <!-- Weather Start -->
+                                            
+                                            <!-- Weather End -->
+
+                                            <!-- Statestics Start -->
+                                            
+                                            <!-- Statestics End -->
                                         </div>
                                     </div>
                                 </div>
@@ -377,6 +406,7 @@
         </div>
     </div>
 
+    <!-- Warning Section Starts -->
     <!-- Older IE warning message -->
     <!--[if lt IE 10]>
 <div class="ie-warning">
@@ -420,9 +450,9 @@
 </div>
 <![endif]-->
     <!-- Warning Section Ends -->
-    <!-- Required Jqurey -->
+    <!-- Required Jquery -->
     <script type="text/javascript" src="../bower_components/jquery/js/jquery.min.js"></script>
-    <script src="../bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery-ui/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="../bower_components/popper.js/js/popper.min.js"></script>
     <script type="text/javascript" src="../bower_components/bootstrap/js/bootstrap.min.js"></script>
     <!-- jquery slimscroll js -->
@@ -430,47 +460,59 @@
     <!-- modernizr js -->
     <script type="text/javascript" src="../bower_components/modernizr/js/modernizr.js"></script>
     <script type="text/javascript" src="../bower_components/modernizr/js/css-scrollbars.js"></script>
+    <!-- Chart js -->
+    <script type="text/javascript" src="../bower_components/chart.js/js/Chart.js"></script>
     <!-- c3 chart js -->
     <script src="../bower_components/c3/js/c3.js"></script>
-    <!-- knob js -->
-    <script src="../assets/pages/chart/knob/jquery.knob.js"></script>
-    <script type="text/javascript" src="../assets/pages/widget/jquery.sparkline.js"></script>
-
-    <!-- peity Chart js -->
-    <script src="../bower_components/peity/js/jquery.peity.js "></script>
-    <!-- am chart map -->
-    <script src="../assets/pages/widget/amchart/ammap.js"></script>
-    <script src="../assets/pages/widget/amchart/worldLow.js"></script>
-    <script src="../assets/pages/widget/amchart/light.js"></script>
+    <!-- counter js -->
+    <script src="../assets/js/jquery.easypiechart.min.js"></script>
+    <script src="../assets/js/counter.js"></script>
+    <!-- Morris Chart js -->
+    <script src="../bower_components/raphael/js/raphael.min.js"></script>
+    <script src="../bower_components/morris.js/js/morris.js"></script>
     <!-- Float Chart js -->
     <script src="../assets/pages/chart/float/jquery.flot.js"></script>
     <script src="../assets/pages/chart/float/jquery.flot.categories.js "></script>
     <script src="../assets/pages/chart/float/jquery.flot.pie.js "></script>
-    <!-- Chart js -->
-    <script type="text/javascript" src="../bower_components/chart.js/js/Chart.js"></script>
-
-    <!-- Morris Chart js -->
-    <script src="../bower_components/raphael/js/raphael.min.js"></script>
-    <script src="../bower_components/morris.js/js/morris.js"></script>
-    <!-- amchart js -->
-    <script type="text/javascript" src="../assets/pages/dashboard/amchart/js/amcharts.js"></script>
-    <script type="text/javascript" src="../assets/pages/dashboard/amchart/js/serial.js"></script>
-    <script type="text/javascript" src="../assets/pages/dashboard/amchart/js/light.js"></script>
-    <script type="text/javascript" src="../assets/pages/dashboard/amchart/js/custom-amchart.js"></script>
+    <!-- Rickshow Chart js -->
+    <script src="../bower_components/d3/js/d3.js"></script>
+    <script src="../assets/pages/chart/rickshow/d3.layout.min.js"></script>
+    <script src="../bower_components/rickshaw/js/rickshaw.js"></script>
+    <script type="text/javascript" src="../assets/pages/widget/jquery.sparkline.js"></script>
+    <!-- gauge js -->
+    <script src="../assets/pages/widget/gauge/gauge.min.js "></script>
+    <script src="../assets/pages/widget/amchart/amcharts.js"></script>
+    <script src="../assets/pages/widget/amchart/serial.js"></script>
+    <script src="../assets/pages/widget/amchart/gauge.js"></script>
+    <script src="../assets/pages/widget/amchart/pie.js"></script>
+    <script src="../assets/pages/widget/amchart/light.js"></script>
+    <!-- peity Chart js -->
+    <script src="../bower_components/peity/js/jquery.peity.js "></script>
+    <!-- knob js -->
+    <script src="../assets/pages/chart/knob/jquery.knob.js"></script>
+    
     <!-- i18next.min.js -->
     <script type="text/javascript" src="../bower_components/i18next/js/i18next.min.js"></script>
     <script type="text/javascript" src="../bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
     <script type="text/javascript" src="../bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
     <script type="text/javascript" src="../bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
-    <!-- Custom js -->
-    <script type="text/javascript" src="../assets/pages/dashboard/ecommerce-dashboard.js"></script>
-
     <script type="text/javascript" src="../assets/js/SmoothScroll.js"></script>
-    <!-- pcmenu js -->
+    <!-- Custom js -->
+    <script type="text/javascript" src="../assets/pages/chart/echarts/echart-custom.js"></script>
+    <script type="text/javascript" src="../assets/pages/dashboard/crm-dashboard.min.js"></script>
     <script src="../assets/js/pcoded.min.js"></script>
     <script src="../assets/js/demo-12.js"></script>
     <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script type="text/javascript" src="../assets/js/script.js"></script>
+    <script type="text/javascript" src="../assets/pages/widget/jquery.sparkline.js "></script>
+    <script type="text/javascript" src="../assets/pages/widget/widget-advanced.js "></script>
+    
+    <script type="text/javascript" src="../assets/pages/chart/knob/knob-custom-chart.js"></script>
+    <script type="text/javascript" src="../assets/pages/widget/waterball/createWaterBall-jquery.js "></script>
+    <script type="text/javascript" src="../assets/pages/widget/custom-widget1.js "></script>
+    <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js "></script>
+    <script src="../assets/js/jquery.mousewheel.min.js "></script>
+   
 </body>
 
 </html>
