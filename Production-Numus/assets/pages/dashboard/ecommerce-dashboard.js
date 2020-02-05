@@ -53,7 +53,7 @@ $(document).ready(function() {
         function buildchartoption() {
             return {
                 title: {
-                    display: !1
+                    display: !0
                 },
                 tooltips: {
                     enabled: !1,
@@ -111,6 +111,69 @@ $(document).ready(function() {
                 }
             };
         }
+
+        function buildcustomchartoption() {
+            return {
+                title: {
+                    display: !0
+                },
+                tooltips: {
+                    enabled: !1,
+                    intersect: true,
+                    mode: "nearest",
+                    xPadding: 10,
+                    yPadding: 10,
+                    caretPadding: 10
+                },
+                legend: {
+                    display: !1,
+                    labels: {
+                        usePointStyle: !1
+                    }
+                },
+                responsive: !0,
+                maintainAspectRatio: !0,
+                hover: {
+                    mode: "index"
+                },
+                scales: {
+                    xAxes: [{
+                        display: !1,
+                        gridLines: !1,
+                        scaleLabel: {
+                            display: !0,
+                            labelString: "Month"
+                        }
+                    }],
+                    yAxes: [{
+                        display: !1,
+                        gridLines: !1,
+                        scaleLabel: {
+                            display: !0,
+                            labelString: "Value"
+                        },
+                        ticks: {
+                            beginAtZero: !0
+                        }
+                    }]
+                },
+                elements: {
+                    point: {
+                        radius: 4,
+                        borderWidth: 12
+                    }
+                },
+                layout: {
+                    padding: {
+                        left: 0,
+                        right: 0,
+                        top: 5,
+                        bottom: 0
+                    }
+                }
+            };
+        }
+
         // Email sent start
         var chart = AmCharts.makeChart("email-sent", {
             "type": "serial",
@@ -318,7 +381,7 @@ $(document).ready(function() {
                     data: [375,335,240,200,275,205,170,150,275,250,180,160,360,300],
                 }]
             },
-            options: buildchartoption(),
+            options: buildcustomchartoption(),
         });
         // svg path for target icon
         var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
