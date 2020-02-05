@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Dashboard - Numus</title>
+    <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 10]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="#">
+    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="#">
+    <!-- Favicon icon -->
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/css/bootstrap.min.css">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="../assets/icon/themify-icons/themify-icons.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="../assets/icon/icofont/css/icofont.css">
+    <!-- Menu-Search css -->
+    <link rel="stylesheet" type="text/css" href="../assets/pages/menu-search/css/component.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mCustomScrollbar.css">
+    <!-- Nvd3 chart css -->
+    <link rel="stylesheet" href="../bower_components/nvd3/css/nv.d3.css" type="text/css" media="all">
+
+
+</head>
+
+
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>
+                        
+                        <a href="index.html">
+                            <img class="navbar-logo" src="../assets/images/numus-logo.svg" alt="Theme-Logo" />
+                        </a>
+                        <a class="mobile-options">
+                            <i class="ti-more"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                            <ul class="nav-left">
+                                    <li>
+                                        <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
+                                    </li>
+                                    <li>
+                                        <a href="#!" onclick="javascript:toggleFullScreen()">
+                                                <i class="ti-fullscreen"></i>
+                                            </a>
+                                    </li>
+                                </ul>
+                                <!-- <ul class="nav-left">
+                                    <li class="user-profile header-notification">
+                                <a href="http://gaussit.co/ElaAnalytics/NumusLanding/" target="_blank">
+                                <img src="../assets/images/numus-logo.svg"class="img-radius" alt="User-Profile-Image">  
+                            </a>
+                            </li>    
+                            </ul> -->
+                        <ul class="nav-right">
+                           
+                            <li class="user-profile header-notification">
+                                <a href="#!">
+                                        <img src="images/user.jpg" class="img-radius" alt="User-Profile-Image">
+                                        <span>Martin Johansen</span>
+                                        <i class="ti-angle-down"></i>
+                                    </a>
+                                <ul class="show-notification profile-notification">
+                                    <li>
+                                        <a href="user-profile.html">
+                                                <i class="ti-user"></i> Profile
+                                            </a>
+                                    </li>
+                                    <li>
+                                        <a href="pending-payments.html">
+                                                <i class="ti-timer"></i> Pending Payments
+                                            </a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-lock-screen.html">
+                                                <i class="ti-lock"></i> Lock Screen
+                                            </a>
+                                    </li>
+                                    <li>
+                                        <a href="../UserAdmin/auth-normal-sign-in.html">
+                                        <i class="ti-layout-sidebar-left"></i> Logout
+                                    </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div class="">
+                                <div class="main-menu-header">
+                                    <img class="img-40 img-radius" src="images/user.jpg" alt="User-Profile-Image">
+                                    <div class="user-details">
+                                        <span>Martin Johansen</span>
+                                        <span id="more-details">Software Developer<i class="ti-angle-down"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="main-menu-content">
+                                    <ul>
+                                        <li class="more-details">
+                                            <a href="user-profile.html"><i class="ti-user"></i>View Profile</a>
+                                            <a href="../UserAdmin/auth-normal-sign-in.html"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-hasmenu active pcoded-trigger">
+                                    
+                                        <li class="active">
+                                            <a href="index.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.dash.default">Dashboard</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="dashboard-expenses.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.dash.ecommerce">Income and Expenses</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="dashboard-AssetsandLiabilities.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.dash.crm">Assets and Liabilities</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="dashboard-analytics.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.dash.analytics">Analytics/Benchmarking</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                       
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.pages">Pages</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="http://gaussit.co/ElaAnalytics/NumusLanding/" target="_blank">
+                                        <span class="pcoded-micon"><i class="ti-mobile"></i><b>LP</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.landing-page.main">Landing Page</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-hasmenu ">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-id-badge"></i><b>A</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.authentication.main">Authentication</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class="">
+                                            <a href="../UserAdmin/auth-normal-sign-in.html" target="_blank">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.authentication.login-bg-image">Login to numus</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <div class="main-body">
+                                <div class="page-wrapper">
+
+                                    <div class="page-body">
+                                        <div class="row">
+                                            
+                                            <!-- card1 start -->
+                                            
+                                            <!-- card1 end -->
+                                            <!-- card1 start -->
+                                            
+                                            <!-- card1 end -->
+                                            <!-- card1 start -->
+                                            
+                                            <!-- card1 end -->
+                                            <!-- card1 start -->
+                                           
+                                            <!-- card1 end -->
+                                            <!-- Statistics Start -->
+                                            <div class="col-md-12 col-xl-8">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5>Spendings</h5>
+                                                        <div class="card-header-left ">
+                                                        </div>
+                                                        <div class="card-header-right">
+                                                            <ul class="list-unstyled card-option">
+                                                                <li><i class="icofont icofont-simple-left "></i></li>
+                                                                <li><i class="icofont icofont-maximize full-card"></i></li>
+                                                                <li><i class="icofont icofont-minus minimize-card"></i></li>
+                                                                <li><i class="icofont icofont-refresh reload-card"></i></li>
+                                                                <li><i class="icofont icofont-error close-card"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div id="statestics-chart" style="height:330px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-xl-4">
+
+                                                <div class="card card-blue total-card">
+                                                    <div class="card-block">
+                                                        <div class="text-left">
+                                                            <h4>5,258</h4>
+                                                            <p class="m-0">Credit Score</p>
+                                                        </div>
+                                                        <span class="label bg-c-blue value-badges">56%</span>
+                                                    </div>
+                                                    <canvas id="total-value-graph-1" class="total-value-graph" height="100"></canvas>
+                                                </div>
+
+                                                <div class="card card-pink total-card">
+                                                    <div class="card-block">
+                                                        <div class="text-left">
+                                                            <h4>2,843</h4>
+                                                            <p class="m-0">Savings rate</p>
+                                                        </div>
+                                                        <span class="label bg-c-pink value-badges">26%</span>
+                                                    </div>
+                                                    <canvas id="total-value-graph-2" class="total-value-graph" height="100"></canvas>
+                                                </div>
+                                            </div>
+                                        <!-- Statistics and revenue Start -->
+                                        <div class="col-md-12 ">
+                                            <div class="card card-statistics ">
+                                                <div class="card-header ">
+                                                    <div class="card-header-left ">
+                                                        <h5>Credit score, savings rate and discretionary spending</h5>
+                                                    </div>
+                                                    <div class="card-header-right">
+                                                        <ul class="list-unstyled card-option">
+                                                            <li><i class="icofont icofont-simple-left "></i></li>
+                                                            <li><i class="icofont icofont-maximize full-card"></i></li>
+                                                            <li><i class="icofont icofont-minus minimize-card"></i></li>
+                                                            <li><i class="icofont icofont-refresh reload-card"></i></li>
+                                                            <li><i class="icofont icofont-error close-card"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="card-block ">
+                                                    <div class="row ">
+                                                        <div class="col-sm-4 ">
+                                                            <div class="row stats-block">
+                                                                <div class="col-lg-6 ">
+                                                                    <div class="progressbar-v-1">
+                                                                        <div class="chart" data-percent="56"
+                                                                             data-barColor="#4680FE"
+                                                                             data-trackColor="#dbdada"
+                                                                             data-lineWidth="6" data-barSize="110">
+                                                                            <div class="chart-percent"><span></span>%
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 ">
+                                                                    <h2 class="f-w-600 ">5,258 </h2>
+                                                                    <p class="text-muted">Credit score</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4 ">
+                                                            <div class="row stats-block">
+                                                                <div class="col-lg-6 ">
+                                                                    <div class="progressbar-v-1">
+                                                                        <div class="chart" data-percent="26"
+                                                                             data-barColor="#FC6180"
+                                                                             data-trackColor="#dbdada"
+                                                                             data-lineWidth="6" data-barSize="110">
+                                                                            <div class="chart-percent"><span></span>%
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 ">
+                                                                    <h2 class="f-w-600 ">2,843 </h2>
+                                                                    <p class="text-muted ">Savings rate</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-4 ">
+                                                            <div class="row stats-block">
+                                                                <div class="col-lg-6 ">
+                                                                    <div class="progressbar-v-1">
+                                                                        <div class="chart" data-percent="42"
+                                                                             data-barColor="#FFB64D"
+                                                                             data-trackColor="#dbdada"
+                                                                             data-lineWidth="6" data-barSize="110">
+                                                                            <div class="chart-percent"><span></span>%
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 ">
+                                                                    <h2 class="f-w-600 ">75 %</h2>
+                                                                    <p class="text-muted ">Discretionary spending</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-t-default p-t-20 m-t-30">
+                                                        <div class="row ">
+                                                            <div class="col-sm-4 ">
+                                                                <h6 class="d-inline-block m-r-10 ">Credit score growth</h6>
+                                                                <span class="label bg-c-blue ">56%</span>
+                                                            </div>
+                                                            <div class="col-sm-4 ">
+                                                                <h6 class="d-inline-block m-r-10 ">Savings rate growth</h6>
+                                                                <span class="label bg-c-pink ">26%</span>
+                                                            </div>
+                                                            <div class="col-sm-4 ">
+                                                                <h6 class="d-inline-block m-r-10 ">Discretionary spending growth</h6>
+                                                                <span class="label bg-c-yellow ">42%</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Statistics and revenue End -->
+                                            <!-- Widget Chart Start -->
+                                            <div class="col-md-12 col-xl-7 ">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="card-header-left ">
+                                                            <h5>Spendings last week</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block-big">
+                                                        <div id="monthly-graph" style="height:250px"></div>
+                                                        <div id="monthly-view">
+                                                            <h4 class="text-center f-w-400 f-20 m-b-20">December 2019</h4>
+                                                            <div class="row">
+                                                                <div class="col-6 b-r-default">
+                                                                    <h4 class="f-w-400">3,473 EUR</h4>
+                                                                    <p class="text-muted f-16">Earned</p>
+                                                                </div>
+                                                                <div class="col-6 text-right">
+                                                                    <h4 class="f-w-400">1,907 EUR</h4>
+                                                                    <p class="text-muted f-16">Spent</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Widget Chart End -->
+                                            
+                                            <!-- Donut Chart start -->
+                                            <div class="col-md-4 col-lg-5">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5>Income Distribution</h5>
+                                                        
+                                                        <div class="card-header-right">                                                             <i class="icofont icofont-spinner-alt-5"></i>                                                         </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div id="donutchart" class="nvd-chart w-100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Donut Chart Ends -->
+                                        <!-- Visitor Map Start -->
+                                        <div class="col-md-12 col-xl-6">
+                                            <div class="card card-chart o-hidden">
+                                                <div class="card-block">
+                                                    <h2 class="f-w-600 m-b-15">39,678 EUR</h2>
+                                                    <h5>Your Daily Savings Rate</h5>
+                                                    <h6 class="text-muted d-inline-block card-chart-right f-w-600">
+                                                        <i class="icofont icofont-long-arrow-up f-20 f-w-600"></i>32
+                                                        %</h6>
+                                                </div>
+                                                <div id="realtimeupdate"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-xl-6">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <div class="card-header-left ">
+                                                        <h5>Fees collection</h5>
+                                                    </div>
+                                                    <div class="card-header-right">
+                                                        <ul class="list-unstyled card-option">
+                                                            <li><i class="icofont icofont-simple-left "></i></li>
+                                                            <li><i class="icofont icofont-maximize full-card"></i></li>
+                                                            <li><i class="icofont icofont-minus minimize-card"></i></li>
+                                                            <li><i class="icofont icofont-refresh reload-card"></i></li>
+                                                            <li><i class="icofont icofont-error close-card"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="card-block-big fees-card">
+                                                    <div class="row">
+                                                        <div class="col-sm-4">
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <div class="legend-icon">
+                                                                        <span class="bg-c-blue"></span>
+                                                                    </div>
+                                                                    <div class="legend-cont">
+                                                                        <p>4,025 EUR</p>
+                                                                        <span>Collection</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="legend-icon">
+                                                                        <span class="bg-c-pink"></span>
+                                                                    </div>
+                                                                    <div class="legend-cont">
+                                                                        <p>3,782 EUR</p>
+                                                                        <span>Fees</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="legend-icon">
+                                                                        <span class="bg-c-yellow"></span>
+                                                                    </div>
+                                                                    <div class="legend-cont">
+                                                                        <p>3,586 EUR</p>
+                                                                        <span>Expenses</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-sm-8">
+                                                            <div id="fees-collection"
+                                                                 style="max-width:100%;height:200px;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Visitor Map End -->
+                                            <!-- statstic card end -->
+                                            <!-- statstic card start -->
+                                            
+                                            <!-- statstic card end -->
+                                            
+                                            <!-- Email Sent End -->
+                                            <!-- Data widget start -->
+                                            
+                                            <!-- Data widget End -->
+                                            <!-- Weather Start -->
+                                            
+                                            <!-- Weather End -->
+                                            <!-- Weather Start -->
+                                            
+                                            <!-- Weather End -->
+                                            
+                                            <!-- Project overview Start -->
+                                            
+                                            <!-- Project overview End -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 10]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="../assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="../assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="../assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="../assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="../assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+    <!-- Warning Section Ends -->
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="../bower_components/jquery/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../bower_components/popper.js/js/popper.min.js"></script>
+    <script type="text/javascript" src="../bower_components/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="../bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="../bower_components/modernizr/js/modernizr.js"></script>
+    <!-- am chart -->
+    <script src="../assets/pages/widget/amchart/amcharts.min.js"></script>
+    <script src="../assets/pages/widget/amchart/serial.min.js"></script>
+    <!-- Chart js -->
+    <script type="text/javascript" src="../bower_components/chart.js/js/Chart.js"></script>  
+     <!-- Float Chart js -->
+    <script src="../assets/pages/chart/float/jquery.flot.js"></script>
+    <script src="../assets/pages/chart/float/jquery.flot.categories.js "></script>
+    <script src="../assets/pages/chart/float/jquery.flot.pie.js "></script>  
+    <!-- Todo js -->
+    <script type="text/javascript" src="../assets/pages/todo/todo.js "></script>
+    <!-- i18next.min.js -->
+    <script type="text/javascript" src="../bower_components/i18next/js/i18next.min.js"></script>
+    <script type="text/javascript" src="../bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="../bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery-i18next/js/jquery-i18next.min.js"></script>
+    <!-- Custom js -->
+    <script type="text/javascript" src="../assets/pages/dashboard/custom-dashboard.js"></script>
+    <script type="text/javascript" src="../assets/js/SmoothScroll.js"></script>
+    <script src="../assets/js/pcoded.min.js"></script>
+    <script src="../assets/js/demo-12.js"></script>
+    <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../assets/js/script.min.js"></script> 
+    <script type="text/javascript" src="../assets/pages/widget/custom-widget1.js "></script>
+    <!-- NVD3 chart -->
+    <script src="../bower_components/d3/js/d3.js"></script>
+    <script src="../bower_components/nvd3/js/nv.d3.js"></script>
+    <script src="../assets/pages/chart/nv-chart/js/stream_layers.js"></script>    
+
+    <script type="text/javascript" src="../assets/pages/chart/nvd3/chart-nvd3.js"></script>
+    <!-- counter js -->
+    <script src="../assets/js/jquery.easypiechart.min.js"></script>
+    <script src="../assets/js/counter.js"></script>
+    <!-- gauge js -->
+    <script src="../assets/pages/widget/amchart/amcharts.js"></script>
+    <script src="../assets/pages/widget/amchart/gauge.js"></script>
+    <script src="../assets/pages/widget/amchart/pie.js"></script>
+    <script src="../assets/pages/widget/amchart/serial.js"></script>
+    <script src="../assets/pages/widget/amchart/light.js"></script>
+    <script src="../assets/pages/widget/amchart/ammap.js"></script>
+    <script src="../assets/pages/widget/amchart/worldLow.js"></script>
+    <!-- waterball js -->
+    <script type="text/javascript" src="../assets/pages/widget/waterball/createWaterBall-jquery.js "></script>
+
+
+    
+    <script type="text/javascript" src="../assets/pages/widget/widget-advanced.min.js "></script>
+    
+
+    
+    <script type="text/javascript" src="../assets/pages/widget/jquery.sparkline.js "></script>
+    <script type="text/javascript" src="../assets/js/SmoothScroll.js"></script>
+    
+
+</body>
+
+</html>
