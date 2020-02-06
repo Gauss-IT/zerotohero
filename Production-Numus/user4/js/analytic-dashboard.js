@@ -63,10 +63,10 @@ $(document).ready(function() {
                 "lineThickness": 2,
                 "lineColor": "#93be52",
                 "type": "smoothedLine",
-                "title": "Net worth",
+                "title": "My credit score",
                 "useLineColorForBulletBorder": true,
                 "valueField": "market1",
-                "legendValueText": "[[value]]M EUR",
+                "legendValueText": "[[value]]",
                 "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
             }, {
                 "id": "g2",
@@ -80,7 +80,7 @@ $(document).ready(function() {
                 "lineColor": "#FC6180",
                 // "type": "smoothedLine",
                 "dashLength": 5,
-                "title": "Credit Score",
+                "title": "Ola's Credit Score",
                 "useLineColorForBulletBorder": true,
                 "valueField": "market2",
                 "legendValueText": "[[value]]",
