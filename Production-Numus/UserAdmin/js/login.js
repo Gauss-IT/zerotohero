@@ -1,5 +1,9 @@
 var attempt = 3; // Variable to count number of attempts.
 
+$(document).ready(function() {
+  bindKeyEvents();
+});
+
 function bindKeyEvents() {
   document.getElementById("passwordField")
     .addEventListener("keyup", function (event) {
