@@ -12,31 +12,31 @@ $(document).ready(function() {
             "marginRight": 0,
             "dataProvider": [{
                 "year": "Jan",
-                "value": 200 
+                "value": 2200 
             }, {
                 "year": "Feb",
-                "value": 264
+                "value": 1800
             }, {
                 "year": "Mar",
-                "value": 344
+                "value": 2200
             }, {
                 "year": "Apr",
-                "value": 215
+                "value": 2000
             }, {
                 "year": "May",
-                "value": 185
+                "value": 1900
             }, {
                 "year": "Jun",
-                "value": 300
+                "value": 2100
             }, {
                 "year": "Jul",
-                "value": 420
+                "value": 1850
             }, {
                 "year": "Aug",
-                "value": 350
+                "value": 2000
             }, {
                 "year": "Sep",
-                "value": 263
+                "value": 2100
             }],
             "valueAxes": [{
                 "axisAlpha": 0,
