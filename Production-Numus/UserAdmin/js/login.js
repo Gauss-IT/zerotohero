@@ -28,19 +28,19 @@ function validate() {
     window.location = "index.html"; // Redirecting to other page.
     return false;
   } else if (username == "anja" && password == "anja123") {
-    window.location = "../../user1/default/index.html"; // Redirecting to other page.
+    window.location = "../user1/index.html"; // Redirecting to other page.
     return false;
   }
   else if (username == "markus" && password == "markus123") {
-    window.location = "../../user2/default/index.html"; // Redirecting to other page.
+    window.location = "../user2/index.html"; // Redirecting to other page.
     return false;
   }
   else if (username == "bjorn" && password == "bjorn123") {
-    window.location = "../../user3/default/index.html"; // Redirecting to other page.
+    window.location = "../user3/index.html"; // Redirecting to other page.
     return false;
   }
   else if (username == "martin" && password == "martin123") {
-    window.location = "../../user4/default/index.html"; // Redirecting to other page.
+    window.location = "../user4/index.html"; // Redirecting to other page.
     return false;
   }
   else {
