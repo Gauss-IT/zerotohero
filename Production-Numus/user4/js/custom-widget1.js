@@ -1302,7 +1302,7 @@ $(document).ready(function() {
 
             "valueAxes": [{
                 "id": "a1",
-                "title": "Amount EUR",
+                "title": "Amount €",
                 "gridAlpha": 0,
                 "axisAlpha": 0
             }, {
@@ -1330,7 +1330,7 @@ $(document).ready(function() {
                 "cornerRadiusTop": 5,
                 // "columnWidth": 0.3,
                 "valueAxis": "a1",
-                "balloonText": "[[value]] EUR",
+                "balloonText": "[[value]] €",
                 "legendValueText": "[[value]] mi",
                 "legendPeriodValueText": "total: [[value.sum]] mi",
                 "lineColor": "#4680ff",

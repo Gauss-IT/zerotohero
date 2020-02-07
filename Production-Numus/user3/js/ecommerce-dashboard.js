@@ -146,8 +146,8 @@ $(document).ready(function() {
                 "valueField": "sales2",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "[[value]]M EUR",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
+                "legendValueText": " [[value]] €",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'> [[value]] €</b>"
             }, {
                 "id": "g4",
                 "valueAxis": "v1",
@@ -159,8 +159,8 @@ $(document).ready(function() {
                 "valueField": "sales1",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "[[value]]M EUR",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
+                "legendValueText": " [[value]] €",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'> [[value]] €</b>"
             }, {
                 "id": "g1",
                 "valueAxis": "v2",
@@ -185,12 +185,12 @@ $(document).ready(function() {
                 "fillColors": "#FFB64D",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Ola's Income",
+                "title": "Actual expenses",
                 "valueField": "sales2",
                 "clustered": true,
                 "columnWidth": 0.4,
-                "legendValueText": "[[value]]M EUR",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
+                "legendValueText": " [[value]] €",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'> [[value]] €</b>"
             }],
             "chartCursor": {
                 "pan": true,
