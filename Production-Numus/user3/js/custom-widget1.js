@@ -1163,104 +1163,104 @@ $(document).ready(function() {
         // Email sent Ends
         var chartData = [{
             "date": "2012-01-01",
-            "distance": 295,
+            "distance": 411,
             "townName": "Cell phone",
             "townName2": "Cell phone",
             "townSize": 25,
-            "latitude": 34.28,
-            "duration": 388
+            "latitude": 40.71,
+            "duration": 408
         }, {
             "date": "2012-01-02",
-            "distance": 399,
+            "distance": 389,
             "townName": "Washington",
             "townSize": 14,
-            "latitude": 29.54,
-            "duration": 501
+            "latitude": 38.89,
+            "duration": 515
         }, {
             "date": "2012-01-03",
-            "distance": 433,
+            "distance": 416,
             "townName": "Wilmington",
             "townSize": 6,
             "latitude": 34.22,
-            "duration": 282
+            "duration": 477
         }, {
             "date": "2012-01-04",
-            "distance": 345,
+            "distance": 398,
             "townName": "Jacksonville",
             "townSize": 7,
             "latitude": 30.35,
-            "duration": 379
+            "duration": 301
         }, {
             "date": "2012-01-05",
-            "distance": 480,
+            "distance": 520,
             "townName": "Gas",
             "townName2": "Gas",
             "townSize": 10,
-            "latitude": 23.71,
-            "duration": 465
+            "latitude": 25.83,
+            "duration": 467
         }, {
             "date": "2012-01-06",
-            "distance": 386,
+            "distance": 301,
             "townName": "Tallahassee",
             "townSize": 7,
             "latitude": 30.46,
-            "duration": 343
+            "duration": 357
         }, {
             "date": "2012-01-07",
-            "distance": 348,
+            "distance": 379,
             "townName": "New Orleans",
             "townSize": 10,
             "latitude": 29.94,
-            "duration": 405
+            "duration": 418
         }, {
             "date": "2012-01-08",
-            "distance": 320,
+            "distance": 350,
             "townName": "Groceries",
             "townName2": "Groceries",
             "townSize": 16,
-            "latitude": 27.21,
-            "duration": 318
+            "latitude": 29.76,
+            "duration": 288
         }, {
             "date": "2012-01-09",
-            "distance": 318,
+            "distance": 369,
             "townName": "Dalas",
             "townSize": 17,
             "latitude": 32.8,
-            "duration": 287
+            "duration": 298
         }, {
             "date": "2012-01-10",
-            "distance": 349,
+            "distance": 378,
             "townName": "Oklahoma City",
             "townSize": 11,
             "latitude": 35.49,
-            "duration": 485
+            "duration": 341
         }, {
             "date": "2012-01-11",
-            "distance": 466,
+            "distance": 289,
             "townName": "Kansas City",
             "townSize": 10,
             "latitude": 39.1,
-            "duration": 390
+            "duration": 450
         }, {
             "date": "2012-01-12",
-            "distance": 534,
+            "distance": 506,
             "townName": "Health Insurance",
             "townName2": "Health Insurance",
             "townSize": 18,
             "latitude": 39.74,
-            "duration": 450
+            "duration": 446
         }, {
             "date": "2012-01-13",
             "townName": "Salt Lake City",
             "townSize": 12,
-            "distance": 435,
-            "duration": 280,
-            "latitude": 41.75,
+            "distance": 425,
+            "duration": 270,
+            "latitude": 40.75,
             "alpha": 0.4
         }, {
             "date": "2012-01-14",
-            "distance": 471,
             "latitude": 36.1,
+            "distance": 402,
             "duration": 460,
             "townName": "Rent",
             "townName2": "Rent",

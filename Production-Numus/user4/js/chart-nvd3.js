@@ -259,23 +259,23 @@ $(document).ready(function() {
     //Pie chart example data. Note how there is only a single array of key-value pairs.
     function pieData() {
         return [{
-            "label": "Savings",
+            "label": "Rent",
             "value": 28.127957771107,
             "color": "#FB9678"
         }, {
-            "label": "Retirement",
+            "label": "Food and groceries",
             "value": 31,
             "color": "#FF9F55"
         }, {
-            "label": "Insurance",
+            "label": "Clothing and fashion",
             "value": 64.437804682612,
             "color": "#01C0C8"
         }, {
-            "label": "Taxes",
+            "label": "Maintenance",
             "value": 48.37546739256,
             "color": "#00C292"
         }, {
-            "label": "Utilities",
+            "label": "Online services",
             "value": 4.7367322875705,
             "color": "#CB2027"
         }];
