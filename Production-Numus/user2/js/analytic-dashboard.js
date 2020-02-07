@@ -17,7 +17,7 @@ $(document).ready(function() {
                 "position": "left",
                 "autoGridCount": false,
                 "labelFunction": function(value) {
-                    return Math.round(value) + "M EUR";
+                    return Math.round(value) + "M €";
                 }
             }, {
                 "id": "v2",
@@ -33,12 +33,12 @@ $(document).ready(function() {
                 "fillColors": "#9BBAFF",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "My Income",
+                "title": "Budget",
                 "valueField": "sales2",
                 "clustered": false,
                 "columnWidth": 0.5,
-                "legendValueText": "[[value]]M EUR",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
+                "legendValueText": " [[value]] €",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'> [[value]] €</b>"
             }, {
                 "id": "g4",
                 "valueAxis": "v1",
@@ -46,12 +46,12 @@ $(document).ready(function() {
                 "fillColors": "#4680ff",
                 "fillAlphas": 1,
                 "type": "column",
-                "title": "Ola's Income",
+                "title": "Actual expenses",
                 "valueField": "sales1",
                 "clustered": false,
                 "columnWidth": 0.3,
-                "legendValueText": "[[value]]M EUR",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
+                "legendValueText": " [[value]] €",
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'> [[value]] €</b>"
             }, {
                 "id": "g1",
                 "valueAxis": "v2",
@@ -63,11 +63,11 @@ $(document).ready(function() {
                 "lineThickness": 2,
                 "lineColor": "#93be52",
                 "type": "smoothedLine",
-                "title": "My credit score",
+                "title": "Average spending",
                 "useLineColorForBulletBorder": true,
                 "valueField": "market1",
                 "legendValueText": "[[value]]",
-                "balloonText": "[[title]]<br /><b style='font-size: 130%'>[[value]]M EUR</b>"
+                "balloonText": "[[title]]<br /><b style='font-size: 130%'> [[value]] €</b>"
             }, {
                 "id": "g2",
                 "valueAxis": "v2",
@@ -80,7 +80,7 @@ $(document).ready(function() {
                 "lineColor": "#FC6180",
                 // "type": "smoothedLine",
                 "dashLength": 5,
-                "title": "Ola's Credit Score",
+                "title": "Difference to budget",
                 "useLineColorForBulletBorder": true,
                 "valueField": "market2",
                 "legendValueText": "[[value]]",
