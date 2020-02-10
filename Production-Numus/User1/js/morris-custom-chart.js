@@ -17,19 +17,19 @@ function lineChart() {
     window.lineChart = Morris.Line({
         element: 'line-example',
         data: [
-            { y: '2006', a: 100, b: 90 },
-            { y: '2007', a: 75, b: 65 },
-            { y: '2008', a: 50, b: 40 },
-            { y: '2009', a: 75, b: 65 },
-            { y: '2010', a: 50, b: 40 },
-            { y: '2011', a: 75, b: 65 },
-            { y: '2012', a: 100, b: 90 }
+            { y: '2014', a: 18, b: 21 },
+            { y: '2015', a: 22, b: 19 },
+            { y: '2016', a: 24, b: 22 },
+            { y: '2017', a: 20, b: 24 },
+            { y: '2018', a: 16, b: 20 },
+            { y: '2019', a: 21, b: 18 },
+            { y: '2020', a: 22, b: 21 }
         ],
         xkey: 'y',
         redraw: true,
         ykeys: ['a', 'b'],
         hideHover: 'auto',
-        labels: ['Series A', 'Series B'],
+        labels: ['Actual', 'Expected'],
         lineColors: ['#B4C1D7', '#FF9F55']
     });
 }
