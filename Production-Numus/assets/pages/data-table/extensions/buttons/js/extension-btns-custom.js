@@ -155,7 +155,7 @@ $(document).ready(function() {
     });
     $('#basic-btn').DataTable({
         dom: 'Bfrtip',
-        buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+        buttons: ['copy', 'csv', 'excel', 'print']
     });
     $('#custom-btn').DataTable({
         dom: 'Bfrtip',
